@@ -1,0 +1,7 @@
+2025-09-27 15:57:13,118 | INFO | core.io.loaders | Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-09-27 15:57:13,142 | WARNING | core.quality.dq_checks | DQ issues: {'nulls': {'Dedupe_Flag': 218, 'Dedupe_Match_Type': 189, 'Existing_Record_Flag': 197, 'Fraud_Flag': 210, 'Exception_Flag': 202, 'Employment_Verified': 197, 'Income_Verified': 202, 'Address_Verified': 202, 'Escalation_Required': 210, 'Documents_Collected_Flag': 185, 'Welcome_Kit_Sent': 205}}
+2025-09-27 15:57:13,432 | INFO | core.transforms.process_master | Stage Master rows=250
+2025-09-27 15:57:13,463 | INFO | core.transforms.process_master | App Master rows=50
+2025-09-27 15:57:13,487 | WARNING | core.transforms.validate | Validation diffs detected.
+2025-09-27 15:57:13,695 | INFO | core.io.writers | Saved /content/drive/MyDrive/data sets/output_stage_master.csv
+2025-09-27 15:57:14,110 | INFO | core.io.writers | Saved /content/drive/MyDrive/data sets/output_application_master.csv

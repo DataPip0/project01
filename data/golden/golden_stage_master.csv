@@ -1,0 +1,251 @@
+Application_ID,Stage,Stage_Start,Stage_End,TAT_Minutes,Age_Days,Risk_Grade,UW_Decision,Stage_Status,Performed_By,Issues_Count
+APP001,DI,2025-09-10 05:14:00,2025-09-10 11:23:00,369.0,1,Medium,Decline,Complete,"Team A, Team B",0
+APP001,Dedupe,2025-09-09 14:06:00,2025-09-09 20:00:00,354.0,0,Medium,Hold,On Hold,"Team A, Auto",0
+APP001,PDOC,2025-09-10 03:23:00,2025-09-10 05:04:00,101.0,0,High,Decline,Rejected,"Third Party, Auto",0
+APP001,Sourcing,2025-09-09 07:00:00,2025-09-09 13:10:00,370.0,0,Medium,Hold,On Hold,"Third Party, Auto",0
+APP001,Underwriting,2025-09-09 20:32:00,2025-09-10 02:25:00,353.0,0,High,Hold,Pending,"Team A, Team B",0
+APP002,DI,2025-09-06 05:18:00,2025-09-06 10:55:00,337.0,1,Low,Decline,Pending,"Team A, Auto, Third Party",0
+APP002,Dedupe,2025-09-05 07:52:00,2025-09-05 14:32:00,400.0,0,Medium,Hold,On Hold,"Third Party, Auto",0
+APP002,PDOC,2025-09-05 22:53:00,2025-09-06 04:23:00,330.0,1,High,Decline,On Hold,Third Party,0
+APP002,Sourcing,2025-09-05 03:00:00,2025-09-05 07:12:00,252.0,0,High,Decline,Approved,"Third Party, Team A",0
+APP002,Underwriting,2025-09-05 14:43:00,2025-09-05 22:42:00,479.0,0,High,Approve,Escalated,"Auto, Team A",0
+APP003,DI,2025-09-06 22:54:00,2025-09-07 07:17:00,503.0,1,Low,Hold,Pending,"Team A, Auto",0
+APP003,Dedupe,2025-09-06 00:57:00,2025-09-06 06:41:00,344.0,0,High,Approve,Complete,"Team A, System",0
+APP003,PDOC,2025-09-06 16:10:00,2025-09-06 22:07:00,357.0,0,High,Hold,On Hold,Third Party,0
+APP003,Sourcing,2025-09-06 00:00:00,2025-09-06 00:46:00,46.0,0,High,Hold,Complete,"Team B, Third Party",0
+APP003,Underwriting,2025-09-06 07:20:00,2025-09-06 16:00:00,520.0,0,High,Decline,Pending,"Third Party, Auto",0
+APP004,DI,2025-09-05 09:25:00,2025-09-05 21:41:00,736.0,1,High,Approve,Pending,"Team A, Third Party, System",0
+APP004,Dedupe,2025-09-04 11:41:00,2025-09-04 14:37:00,176.0,0,Medium,Decline,On Hold,"Team B, Third Party",0
+APP004,PDOC,2025-09-05 01:11:00,2025-09-05 08:56:00,465.0,1,Low,Approve,Rejected,"Auto, Team B",0
+APP004,Sourcing,2025-09-04 07:00:00,2025-09-04 10:50:00,230.0,0,Low,Approve,Complete,"Third Party, System",0
+APP004,Underwriting,2025-09-04 14:44:00,2025-09-05 00:34:00,590.0,0,High,Approve,Escalated,"Third Party, Team B, Team A",0
+APP005,DI,2025-09-05 01:11:00,2025-09-05 07:42:00,391.0,1,Low,Decline,On Hold,"Auto, Team B, Team A",0
+APP005,Dedupe,2025-09-04 09:38:00,2025-09-04 14:31:00,293.0,0,Medium,Hold,Rejected,"Auto, Third Party",0
+APP005,PDOC,2025-09-04 21:22:00,2025-09-05 00:29:00,187.0,0,High,Hold,Rejected,Auto,0
+APP005,Sourcing,2025-09-04 03:00:00,2025-09-04 09:04:00,364.0,0,High,Approve,Complete,"Team B, System",0
+APP005,Underwriting,2025-09-04 15:20:00,2025-09-04 20:40:00,320.0,0,Medium,Approve,Complete,"Team A, Third Party, System",0
+APP006,DI,2025-09-07 05:19:00,2025-09-07 16:58:00,699.0,1,Low,Hold,Complete,"Team B, Team A, System",0
+APP006,Dedupe,2025-09-06 13:24:00,2025-09-06 18:13:00,289.0,0,High,Hold,Complete,"Team A, Team B",0
+APP006,PDOC,2025-09-07 01:39:00,2025-09-07 04:55:00,196.0,0,Low,Approve,Pending,"Third Party, Auto",0
+APP006,Sourcing,2025-09-06 07:00:00,2025-09-06 12:48:00,348.0,0,Medium,Approve,Approved,"Team B, Auto",0
+APP006,Underwriting,2025-09-06 19:06:00,2025-09-07 00:43:00,337.0,0,High,Decline,Escalated,"Auto, Team B",0
+APP007,DI,2025-09-05 06:14:00,2025-09-05 13:32:00,438.0,1,Medium,Hold,On Hold,"Team B, Third Party",0
+APP007,Dedupe,2025-09-04 10:22:00,2025-09-04 17:24:00,422.0,0,High,Approve,Pending,"Team A, Third Party",0
+APP007,PDOC,2025-09-05 02:33:00,2025-09-05 05:14:00,161.0,0,High,Hold,Approved,"System, Team A",0
+APP007,Sourcing,2025-09-04 05:00:00,2025-09-04 10:16:00,316.0,0,High,Decline,Escalated,"Third Party, System",0
+APP007,Underwriting,2025-09-04 18:12:00,2025-09-05 01:58:00,466.0,0,Low,Approve,On Hold,"System, Auto, Team B",0
+APP008,DI,2025-09-03 23:51:00,2025-09-04 05:27:00,336.0,0,Medium,Decline,Rejected,"Team A, Auto, Team B",0
+APP008,Dedupe,2025-09-03 09:35:00,2025-09-03 12:29:00,174.0,0,Low,Decline,Rejected,"Auto, Third Party",0
+APP008,PDOC,2025-09-03 19:03:00,2025-09-03 23:12:00,249.0,0,High,Decline,Rejected,"Team B, System",0
+APP008,Sourcing,2025-09-03 03:00:00,2025-09-03 08:40:00,340.0,0,Low,Approve,Pending,Third Party,0
+APP008,Underwriting,2025-09-03 13:19:00,2025-09-03 18:35:00,316.0,0,Low,Approve,Approved,"Team B, Third Party",0
+APP009,DI,2025-09-09 05:38:00,2025-09-09 12:19:00,401.0,1,Low,Approve,Rejected,"Team B, Team A",0
+APP009,Dedupe,2025-09-08 11:20:00,2025-09-08 16:22:00,302.0,0,High,Approve,Pending,"Team A, Third Party",0
+APP009,PDOC,2025-09-09 00:58:00,2025-09-09 05:04:00,246.0,0,High,Decline,Approved,Auto,0
+APP009,Sourcing,2025-09-08 06:00:00,2025-09-08 11:13:00,313.0,0,Medium,Approve,On Hold,System,0
+APP009,Underwriting,2025-09-08 16:27:00,2025-09-09 00:19:00,472.0,0,Medium,Approve,On Hold,"Team A, System, Team B",0
+APP010,DI,2025-09-11 03:08:00,2025-09-11 08:09:00,301.0,1,Medium,Hold,On Hold,"Third Party, Team A, Auto",0
+APP010,Dedupe,2025-09-10 04:36:00,2025-09-10 10:14:00,338.0,0,Low,Decline,Pending,"Team A, Third Party",0
+APP010,PDOC,2025-09-10 20:57:00,2025-09-11 02:37:00,340.0,1,High,Approve,On Hold,"Auto, System",0
+APP010,Sourcing,2025-09-10 00:00:00,2025-09-10 03:37:00,217.0,0,Medium,Hold,Pending,"Team A, Auto",0
+APP010,Underwriting,2025-09-10 11:04:00,2025-09-10 20:13:00,549.0,0,High,Approve,On Hold,"Third Party, Auto, Team B",0
+APP011,DI,2025-09-05 01:07:00,2025-09-05 08:25:00,438.0,1,Medium,Approve,Complete,"Third Party, Team A, System",0
+APP011,Dedupe,2025-09-04 06:32:00,2025-09-04 09:05:00,153.0,0,Low,Approve,Approved,"Third Party, Team A",0
+APP011,PDOC,2025-09-04 19:02:00,2025-09-05 00:32:00,330.0,0,Low,Approve,Rejected,"Team A, Team B",0
+APP011,Sourcing,2025-09-04 02:00:00,2025-09-04 05:41:00,221.0,0,High,Approve,Rejected,"Team A, System",0
+APP011,Underwriting,2025-09-04 09:35:00,2025-09-04 18:40:00,545.0,0,Medium,Approve,Escalated,"Team A, Team B",0
+APP012,DI,2025-09-10 06:42:00,2025-09-10 11:11:00,269.0,1,Low,Hold,Pending,"Auto, Team A",0
+APP012,Dedupe,2025-09-09 10:35:00,2025-09-09 16:21:00,346.0,0,Low,Hold,Approved,"Auto, Team B",0
+APP012,PDOC,2025-09-10 03:58:00,2025-09-10 06:27:00,149.0,1,Low,Approve,On Hold,"Team B, Third Party",0
+APP012,Sourcing,2025-09-09 04:00:00,2025-09-09 10:08:00,368.0,0,High,Hold,Complete,Third Party,0
+APP012,Underwriting,2025-09-09 17:12:00,2025-09-10 03:01:00,589.0,0,Medium,Approve,Approved,"Team B, Auto, Third Party",0
+APP013,DI,2025-09-11 02:54:00,2025-09-11 09:33:00,399.0,1,Medium,Decline,Escalated,"Auto, System, Team A",0
+APP013,Dedupe,2025-09-10 11:44:00,2025-09-10 14:38:00,174.0,0,High,Approve,Pending,Auto,0
+APP013,PDOC,2025-09-10 20:42:00,2025-09-11 02:10:00,328.0,0,Medium,Hold,Approved,"Auto, System",0
+APP013,Sourcing,2025-09-10 04:00:00,2025-09-10 11:27:00,447.0,0,Low,Decline,Pending,"Team B, System",0
+APP013,Underwriting,2025-09-10 15:33:00,2025-09-10 20:08:00,275.0,0,Medium,Decline,Approved,Auto,0
+APP014,DI,2025-09-11 02:38:00,2025-09-11 11:26:00,528.0,1,Low,Approve,Approved,"Team A, Team B",0
+APP014,Dedupe,2025-09-10 09:00:00,2025-09-10 14:28:00,328.0,0,Medium,Approve,Pending,Team B,0
+APP014,PDOC,2025-09-11 00:02:00,2025-09-11 02:26:00,144.0,0,Low,Hold,Complete,"Team B, Auto",0
+APP014,Sourcing,2025-09-10 05:00:00,2025-09-10 08:15:00,195.0,0,Low,Approve,Rejected,"Team A, Auto",0
+APP014,Underwriting,2025-09-10 15:28:00,2025-09-10 23:18:00,470.0,0,High,Approve,Approved,"Team B, Third Party, System",0
+APP015,DI,2025-09-05 01:42:00,2025-09-05 08:00:00,378.0,1,Low,Hold,On Hold,"System, Third Party",0
+APP015,Dedupe,2025-09-04 10:08:00,2025-09-04 17:10:00,422.0,0,Medium,Approve,Complete,"Third Party, Team A",0
+APP015,PDOC,2025-09-04 22:08:00,2025-09-05 00:43:00,155.0,0,Low,Decline,Rejected,"Team B, Team A",0
+APP015,Sourcing,2025-09-04 05:00:00,2025-09-04 10:01:00,301.0,0,High,Hold,Approved,"Third Party, System",0
+APP015,Underwriting,2025-09-04 17:20:00,2025-09-04 21:12:00,232.0,0,High,Approve,Pending,"Team A, Team B",0
+APP016,DI,2025-09-07 00:19:00,2025-09-07 09:01:00,522.0,1,High,Approve,Complete,"Team A, Third Party, System",0
+APP016,Dedupe,2025-09-06 04:50:00,2025-09-06 10:29:00,339.0,0,Low,Decline,Approved,"Team B, Third Party",0
+APP016,PDOC,2025-09-06 18:59:00,2025-09-06 23:46:00,287.0,0,Low,Hold,Pending,"System, Team A",0
+APP016,Sourcing,2025-09-06 01:00:00,2025-09-06 04:22:00,202.0,0,Low,Hold,On Hold,"System, Team A",0
+APP016,Underwriting,2025-09-06 10:53:00,2025-09-06 18:20:00,447.0,0,Medium,Decline,Rejected,"Team A, Auto",0
+APP017,DI,2025-09-02 08:28:00,2025-09-02 15:17:00,409.0,1,Low,Decline,Rejected,"Team A, System, Auto",0
+APP017,Dedupe,2025-09-01 06:58:00,2025-09-01 14:25:00,447.0,0,Low,Decline,Approved,System,0
+APP017,PDOC,2025-09-02 00:33:00,2025-09-02 07:36:00,423.0,1,Medium,Decline,Escalated,Third Party,0
+APP017,Sourcing,2025-09-01 01:00:00,2025-09-01 06:06:00,306.0,0,Low,Approve,On Hold,"System, Third Party",0
+APP017,Underwriting,2025-09-01 15:04:00,2025-09-02 00:00:00,536.0,0,Medium,Approve,Escalated,"Auto, System, Team A",0
+APP018,DI,2025-09-09 07:49:00,2025-09-09 13:21:00,332.0,1,High,Hold,Pending,"Third Party, Auto",0
+APP018,Dedupe,2025-09-08 12:00:00,2025-09-08 18:47:00,407.0,0,Low,Approve,Pending,"System, Team A",0
+APP018,PDOC,2025-09-09 02:11:00,2025-09-09 07:12:00,301.0,0,Medium,Hold,Complete,"Team B, Auto",0
+APP018,Sourcing,2025-09-08 07:00:00,2025-09-08 11:38:00,278.0,0,High,Hold,Pending,"Team B, Auto",0
+APP018,Underwriting,2025-09-08 19:05:00,2025-09-09 01:29:00,384.0,0,Low,Hold,Rejected,"Team B, Team A, Third Party",0
+APP019,DI,2025-09-05 04:24:00,2025-09-05 12:47:00,503.0,1,High,Hold,Rejected,"Team A, Third Party, Auto",0
+APP019,Dedupe,2025-09-04 12:14:00,2025-09-04 16:21:00,247.0,0,High,Decline,On Hold,"Team A, Auto",0
+APP019,PDOC,2025-09-04 23:28:00,2025-09-05 03:56:00,268.0,0,Low,Decline,Pending,"Auto, Team A",0
+APP019,Sourcing,2025-09-04 08:00:00,2025-09-04 11:57:00,237.0,0,Medium,Hold,Pending,Third Party,0
+APP019,Underwriting,2025-09-04 17:17:00,2025-09-04 23:01:00,344.0,0,Medium,Decline,Escalated,"Auto, Team A",0
+APP020,DI,2025-09-04 09:11:00,2025-09-04 18:35:00,564.0,1,Medium,Decline,Escalated,"Third Party, Auto, Team B",0
+APP020,Dedupe,2025-09-03 14:10:00,2025-09-03 20:15:00,365.0,0,Medium,Hold,Escalated,"Auto, System",0
+APP020,PDOC,2025-09-04 03:38:00,2025-09-04 08:19:00,281.0,0,Low,Hold,Rejected,"System, Third Party",0
+APP020,Sourcing,2025-09-03 08:00:00,2025-09-03 14:03:00,363.0,0,Medium,Hold,Approved,"Team A, System",0
+APP020,Underwriting,2025-09-03 20:24:00,2025-09-04 03:10:00,406.0,0,High,Hold,On Hold,"Auto, Third Party",0
+APP021,DI,2025-09-07 00:19:00,2025-09-07 09:47:00,568.0,1,High,Approve,Escalated,"System, Third Party, Auto",0
+APP021,Dedupe,2025-09-06 04:47:00,2025-09-06 09:24:00,277.0,0,High,Approve,Complete,System,0
+APP021,PDOC,2025-09-06 18:20:00,2025-09-06 23:32:00,312.0,0,Medium,Decline,Pending,"Third Party, Team B",0
+APP021,Sourcing,2025-09-06 00:00:00,2025-09-06 04:28:00,268.0,0,High,Decline,Escalated,"Auto, Third Party",0
+APP021,Underwriting,2025-09-06 10:12:00,2025-09-06 17:33:00,441.0,0,High,Hold,Escalated,"Team B, Auto, Team A",0
+APP022,DI,2025-09-03 01:46:00,2025-09-03 07:49:00,363.0,1,Medium,Approve,Escalated,"Auto, Third Party",0
+APP022,Dedupe,2025-09-02 07:03:00,2025-09-02 13:29:00,386.0,0,High,Hold,Pending,"Third Party, Team B",0
+APP022,PDOC,2025-09-02 20:56:00,2025-09-03 01:05:00,249.0,0,Medium,Hold,Complete,"Team A, Auto",0
+APP022,Sourcing,2025-09-02 00:00:00,2025-09-02 06:15:00,375.0,0,Low,Hold,Escalated,Team B,0
+APP022,Underwriting,2025-09-02 13:42:00,2025-09-02 20:09:00,387.0,0,Medium,Hold,Complete,"Team A, System, Auto",0
+APP023,DI,2025-09-08 08:45:00,2025-09-08 14:06:00,321.0,1,Low,Decline,Complete,"Auto, Third Party",0
+APP023,Dedupe,2025-09-07 08:31:00,2025-09-07 15:17:00,406.0,0,Medium,Approve,Approved,"Auto, Team B",0
+APP023,PDOC,2025-09-08 00:59:00,2025-09-08 07:59:00,420.0,1,High,Decline,On Hold,"Team B, Third Party",0
+APP023,Sourcing,2025-09-07 04:00:00,2025-09-07 08:02:00,242.0,0,High,Approve,Escalated,"System, Team B",0
+APP023,Underwriting,2025-09-07 15:38:00,2025-09-08 00:26:00,528.0,0,Medium,Hold,On Hold,"Third Party, System",0
+APP024,DI,2025-09-08 23:50:00,2025-09-09 05:34:00,344.0,1,High,Decline,Escalated,System,0
+APP024,Dedupe,2025-09-08 07:18:00,2025-09-08 10:15:00,177.0,0,Low,Decline,On Hold,"Auto, Team A",0
+APP024,PDOC,2025-09-08 19:00:00,2025-09-08 23:33:00,273.0,0,High,Decline,On Hold,"Team B, Team A",0
+APP024,Sourcing,2025-09-08 03:00:00,2025-09-08 06:19:00,199.0,0,Medium,Decline,Approved,"Auto, Team A",0
+APP024,Underwriting,2025-09-08 10:52:00,2025-09-08 18:15:00,443.0,0,High,Hold,Rejected,"Third Party, Auto",0
+APP025,DI,2025-09-07 04:58:00,2025-09-07 14:39:00,581.0,1,High,Decline,On Hold,"Third Party, Team B",0
+APP025,Dedupe,2025-09-06 12:00:00,2025-09-06 16:15:00,255.0,0,Medium,Decline,Rejected,"Team A, Team B",0
+APP025,PDOC,2025-09-06 22:59:00,2025-09-07 04:12:00,313.0,0,Low,Hold,Escalated,"Third Party, Team B",0
+APP025,Sourcing,2025-09-06 06:00:00,2025-09-06 11:48:00,348.0,0,Low,Decline,Pending,"System, Auto",0
+APP025,Underwriting,2025-09-06 17:06:00,2025-09-06 22:08:00,302.0,0,High,Approve,Complete,"Third Party, Team A",0
+APP026,DI,2025-09-04 06:53:00,2025-09-04 13:31:00,398.0,1,Medium,Decline,Complete,"System, Third Party, Team A",0
+APP026,Dedupe,2025-09-03 13:26:00,2025-09-03 18:41:00,315.0,0,Medium,Hold,Escalated,"Third Party, Auto",0
+APP026,PDOC,2025-09-04 01:34:00,2025-09-04 06:01:00,267.0,0,Medium,Hold,Pending,"Auto, Team A",0
+APP026,Sourcing,2025-09-03 06:00:00,2025-09-03 12:46:00,406.0,0,High,Decline,Escalated,"Third Party, Team A",0
+APP026,Underwriting,2025-09-03 18:57:00,2025-09-04 00:48:00,351.0,0,Low,Decline,Pending,"Team B, Team A",0
+APP027,DI,2025-09-11 22:02:00,2025-09-12 04:07:00,365.0,1,Medium,Hold,Complete,"Third Party, Team B",0
+APP027,Dedupe,2025-09-11 04:06:00,2025-09-11 08:20:00,254.0,0,Low,Approve,Pending,"Auto, System",0
+APP027,PDOC,2025-09-11 13:29:00,2025-09-11 21:02:00,453.0,0,Low,Decline,Rejected,"Team B, Team A",0
+APP027,Sourcing,2025-09-11 00:00:00,2025-09-11 03:41:00,221.0,0,Medium,Approve,Pending,"Third Party, Team B",0
+APP027,Underwriting,2025-09-11 08:59:00,2025-09-11 13:22:00,263.0,0,Medium,Hold,Escalated,"Third Party, Team B, Auto",0
+APP028,DI,2025-09-09 10:29:00,2025-09-09 18:50:00,501.0,1,Medium,Hold,Rejected,"Third Party, Team B, System",0
+APP028,Dedupe,2025-09-08 13:29:00,2025-09-08 19:16:00,347.0,0,Low,Approve,On Hold,"System, Team B",0
+APP028,PDOC,2025-09-09 03:25:00,2025-09-09 10:10:00,405.0,1,Low,Approve,Escalated,Team B,0
+APP028,Sourcing,2025-09-08 07:00:00,2025-09-08 13:00:00,360.0,0,Medium,Hold,Pending,"Auto, Team A",0
+APP028,Underwriting,2025-09-08 19:47:00,2025-09-09 03:16:00,449.0,0,Low,Approve,On Hold,"Third Party, Auto, Team A",0
+APP029,DI,2025-09-11 22:17:00,2025-09-12 03:45:00,328.0,0,Medium,Decline,Pending,"System, Third Party, Team B",0
+APP029,Dedupe,2025-09-11 07:45:00,2025-09-11 10:53:00,188.0,0,High,Approve,Escalated,"Team B, Auto",0
+APP029,PDOC,2025-09-11 16:50:00,2025-09-11 21:47:00,297.0,0,High,Hold,On Hold,"Third Party, Auto",0
+APP029,Sourcing,2025-09-11 03:00:00,2025-09-11 07:35:00,275.0,0,High,Approve,Pending,"Auto, System",0
+APP029,Underwriting,2025-09-11 10:59:00,2025-09-11 16:25:00,326.0,0,High,Hold,Pending,"Auto, Team A",0
+APP030,DI,2025-09-11 03:13:00,2025-09-11 08:59:00,346.0,1,Low,Approve,Pending,"Auto, Third Party, Team B",0
+APP030,Dedupe,2025-09-10 07:45:00,2025-09-10 12:15:00,270.0,0,Medium,Hold,Rejected,"Auto, Team A",0
+APP030,PDOC,2025-09-10 20:38:00,2025-09-11 02:55:00,377.0,0,High,Decline,On Hold,"Auto, Team A",0
+APP030,Sourcing,2025-09-10 03:00:00,2025-09-10 07:30:00,270.0,0,Low,Decline,Approved,"Team A, Auto",0
+APP030,Underwriting,2025-09-10 12:58:00,2025-09-10 20:14:00,436.0,0,Low,Approve,Approved,"System, Auto",0
+APP031,DI,2025-09-12 07:40:00,2025-09-12 13:09:00,329.0,1,High,Decline,Pending,"Team B, System, Third Party",0
+APP031,Dedupe,2025-09-11 08:58:00,2025-09-11 13:49:00,291.0,0,High,Decline,Escalated,"System, Team A",0
+APP031,PDOC,2025-09-12 00:56:00,2025-09-12 06:55:00,359.0,1,High,Approve,On Hold,"Team B, Auto",0
+APP031,Sourcing,2025-09-11 05:00:00,2025-09-11 08:00:00,180.0,0,Medium,Decline,Approved,"Auto, System",0
+APP031,Underwriting,2025-09-11 14:15:00,2025-09-12 00:05:00,590.0,0,Low,Hold,Complete,"Third Party, Team B, Auto",0
+APP032,DI,2025-09-03 01:28:00,2025-09-03 07:32:00,364.0,1,Medium,Hold,Pending,"Auto, Third Party",0
+APP032,Dedupe,2025-09-02 11:49:00,2025-09-02 14:06:00,137.0,0,Low,Hold,Approved,Team B,0
+APP032,PDOC,2025-09-02 20:47:00,2025-09-03 01:17:00,270.0,0,Medium,Approve,Complete,"Team A, Third Party",0
+APP032,Sourcing,2025-09-02 04:00:00,2025-09-02 10:55:00,415.0,0,Low,Hold,Escalated,"Team B, Third Party",0
+APP032,Underwriting,2025-09-02 14:35:00,2025-09-02 20:04:00,329.0,0,Low,Approve,On Hold,"Third Party, Auto",0
+APP033,DI,2025-09-10 05:28:00,2025-09-10 11:51:00,383.0,1,High,Approve,Escalated,"Team A, System",0
+APP033,Dedupe,2025-09-09 10:59:00,2025-09-09 14:58:00,239.0,0,Medium,Hold,On Hold,System,0
+APP033,PDOC,2025-09-10 01:04:00,2025-09-10 05:07:00,243.0,0,Medium,Hold,Rejected,"Auto, Team B",0
+APP033,Sourcing,2025-09-09 08:00:00,2025-09-09 10:40:00,160.0,0,Medium,Approve,On Hold,"Auto, System",0
+APP033,Underwriting,2025-09-09 15:38:00,2025-09-10 00:29:00,531.0,0,High,Decline,Complete,"Auto, System",0
+APP034,DI,2025-09-11 06:03:00,2025-09-11 11:36:00,333.0,1,Medium,Hold,On Hold,"Team B, Third Party",0
+APP034,Dedupe,2025-09-10 11:04:00,2025-09-10 16:02:00,298.0,0,Low,Approve,Escalated,"Third Party, Team B",0
+APP034,PDOC,2025-09-11 00:27:00,2025-09-11 05:46:00,319.0,0,Medium,Decline,Approved,"Team B, Auto",0
+APP034,Sourcing,2025-09-10 06:00:00,2025-09-10 10:36:00,276.0,0,High,Approve,Pending,"System, Auto",0
+APP034,Underwriting,2025-09-10 16:37:00,2025-09-11 00:10:00,453.0,0,Low,Hold,Approved,"System, Third Party",0
+APP035,DI,2025-09-08 18:15:00,2025-09-09 02:51:00,516.0,1,Low,Approve,Approved,"Third Party, System, Auto",0
+APP035,Dedupe,2025-09-08 03:57:00,2025-09-08 07:07:00,190.0,0,Low,Decline,Approved,"Third Party, Auto",0
+APP035,PDOC,2025-09-08 14:00:00,2025-09-08 17:23:00,203.0,0,High,Decline,Rejected,"System, Auto",0
+APP035,Sourcing,2025-09-08 00:00:00,2025-09-08 03:17:00,197.0,0,High,Approve,Complete,"Auto, Third Party",0
+APP035,Underwriting,2025-09-08 07:31:00,2025-09-08 13:18:00,347.0,0,High,Decline,Approved,"Third Party, System, Team B",0
+APP036,DI,2025-09-11 08:40:00,2025-09-11 17:07:00,507.0,1,Medium,Approve,On Hold,"Auto, System",0
+APP036,Dedupe,2025-09-10 12:40:00,2025-09-10 17:53:00,313.0,0,Medium,Decline,On Hold,"Team B, Auto",0
+APP036,PDOC,2025-09-11 02:42:00,2025-09-11 08:22:00,340.0,0,Medium,Hold,Approved,Team B,0
+APP036,Sourcing,2025-09-10 07:00:00,2025-09-10 12:07:00,307.0,0,Medium,Hold,Pending,"System, Team A",0
+APP036,Underwriting,2025-09-10 18:13:00,2025-09-11 02:01:00,468.0,0,Low,Hold,Escalated,"System, Team A",0
+APP037,DI,2025-09-03 07:02:00,2025-09-03 16:22:00,560.0,1,High,Decline,Pending,"Auto, Third Party, System",0
+APP037,Dedupe,2025-09-02 05:08:00,2025-09-02 12:22:00,434.0,0,High,Approve,Rejected,"Third Party, Team B",0
+APP037,PDOC,2025-09-02 22:37:00,2025-09-03 06:10:00,453.0,1,High,Decline,On Hold,Third Party,0
+APP037,Sourcing,2025-09-02 00:00:00,2025-09-02 04:52:00,292.0,0,Medium,Approve,Rejected,"Third Party, Team B",0
+APP037,Underwriting,2025-09-02 13:16:00,2025-09-02 22:06:00,530.0,0,High,Approve,Escalated,"Auto, System, Team B",0
+APP038,DI,2025-09-11 06:01:00,2025-09-11 11:16:00,315.0,1,High,Hold,Complete,"System, Third Party",0
+APP038,Dedupe,2025-09-10 07:51:00,2025-09-10 15:37:00,466.0,0,High,Decline,Escalated,"Team A, Team B",0
+APP038,PDOC,2025-09-11 00:16:00,2025-09-11 05:48:00,332.0,0,High,Hold,Escalated,"Team B, Third Party",0
+APP038,Sourcing,2025-09-10 03:00:00,2025-09-10 07:28:00,268.0,0,Medium,Hold,Escalated,"Auto, System",0
+APP038,Underwriting,2025-09-10 16:17:00,2025-09-10 23:30:00,433.0,0,High,Hold,Complete,"System, Team A",0
+APP039,DI,2025-09-08 04:31:00,2025-09-08 13:36:00,545.0,1,Medium,Approve,Escalated,"System, Team A",0
+APP039,Dedupe,2025-09-07 13:41:00,2025-09-07 15:11:00,90.0,0,Low,Approve,Pending,System,0
+APP039,PDOC,2025-09-07 23:15:00,2025-09-08 04:20:00,305.0,0,Low,Hold,Rejected,Third Party,0
+APP039,Sourcing,2025-09-07 05:00:00,2025-09-07 12:44:00,464.0,0,High,Hold,Pending,"Team A, System",0
+APP039,Underwriting,2025-09-07 15:56:00,2025-09-07 22:56:00,420.0,0,Medium,Decline,Approved,"Team A, System",0
+APP040,DI,2025-09-12 09:30:00,2025-09-12 14:11:00,281.0,1,Low,Hold,Rejected,"Team A, Team B",0
+APP040,Dedupe,2025-09-11 14:15:00,2025-09-11 16:51:00,156.0,0,Medium,Decline,On Hold,Auto,0
+APP040,PDOC,2025-09-12 01:44:00,2025-09-12 08:50:00,426.0,0,High,Approve,Pending,"System, Third Party",0
+APP040,Sourcing,2025-09-11 08:00:00,2025-09-11 14:01:00,361.0,0,Low,Hold,Approved,Team B,0
+APP040,Underwriting,2025-09-11 17:11:00,2025-09-12 00:55:00,464.0,0,Medium,Hold,Rejected,"Third Party, Auto, Team A",0
+APP041,DI,2025-09-09 06:13:00,2025-09-09 10:49:00,276.0,1,Medium,Approve,On Hold,"Team A, System, Team B",0
+APP041,Dedupe,2025-09-08 11:19:00,2025-09-08 16:50:00,331.0,0,High,Hold,Escalated,"Team A, Third Party",0
+APP041,PDOC,2025-09-09 00:56:00,2025-09-09 05:23:00,267.0,0,Low,Decline,On Hold,"Team B, System",0
+APP041,Sourcing,2025-09-08 05:00:00,2025-09-08 10:59:00,359.0,0,Low,Decline,Escalated,"Third Party, Auto",0
+APP041,Underwriting,2025-09-08 17:03:00,2025-09-09 00:41:00,458.0,0,Low,Decline,Escalated,"Team B, Team A, Third Party",0
+APP042,DI,2025-09-06 11:37:00,2025-09-06 13:53:00,136.0,1,Medium,Decline,Escalated,"Team B, Auto",0
+APP042,Dedupe,2025-09-05 12:45:00,2025-09-05 20:21:00,456.0,0,High,Approve,Escalated,"Third Party, System",0
+APP042,PDOC,2025-09-06 05:00:00,2025-09-06 11:08:00,368.0,0,Low,Approve,Complete,"System, Third Party",0
+APP042,Sourcing,2025-09-05 08:00:00,2025-09-05 12:23:00,263.0,0,Medium,Hold,Rejected,"Team A, Auto",0
+APP042,Underwriting,2025-09-05 20:28:00,2025-09-06 04:23:00,475.0,0,High,Decline,Escalated,"Third Party, Team A, System",0
+APP043,DI,2025-09-06 22:46:00,2025-09-07 05:00:00,374.0,1,Low,Approve,Approved,"System, Third Party",0
+APP043,Dedupe,2025-09-06 05:21:00,2025-09-06 11:16:00,355.0,0,High,Approve,On Hold,"Team A, Team B",0
+APP043,PDOC,2025-09-06 20:34:00,2025-09-06 22:14:00,100.0,0,Medium,Decline,Escalated,Team B,0
+APP043,Sourcing,2025-09-06 00:00:00,2025-09-06 05:13:00,313.0,0,Medium,Decline,Rejected,"Team B, Auto",0
+APP043,Underwriting,2025-09-06 11:22:00,2025-09-06 20:01:00,519.0,0,Low,Approve,Approved,"Third Party, System",0
+APP044,DI,2025-09-11 07:45:00,2025-09-11 15:35:00,470.0,1,Medium,Decline,Escalated,"Team B, Third Party",0
+APP044,Dedupe,2025-09-10 09:17:00,2025-09-10 16:10:00,413.0,0,High,Decline,Pending,"Team B, System",0
+APP044,PDOC,2025-09-10 23:35:00,2025-09-11 06:45:00,430.0,1,Medium,Hold,Approved,"System, Team A",0
+APP044,Sourcing,2025-09-10 02:00:00,2025-09-10 08:22:00,382.0,0,High,Decline,Rejected,"Auto, Third Party",0
+APP044,Underwriting,2025-09-10 16:36:00,2025-09-10 22:40:00,364.0,0,Low,Approve,Escalated,"Third Party, System, Auto",0
+APP045,DI,2025-09-11 01:48:00,2025-09-11 08:25:00,397.0,1,Low,Decline,Approved,"Team A, Third Party",0
+APP045,Dedupe,2025-09-10 09:55:00,2025-09-10 13:22:00,207.0,0,Medium,Decline,Pending,"Third Party, Team B",0
+APP045,PDOC,2025-09-10 19:34:00,2025-09-11 00:58:00,324.0,0,Medium,Hold,Complete,"Third Party, Auto",0
+APP045,Sourcing,2025-09-10 03:00:00,2025-09-10 09:19:00,379.0,0,Low,Hold,On Hold,"Third Party, Team B",0
+APP045,Underwriting,2025-09-10 13:41:00,2025-09-10 19:15:00,334.0,0,High,Decline,Complete,"Team A, Auto",0
+APP046,DI,2025-09-07 23:27:00,2025-09-08 09:59:00,632.0,1,Low,Decline,Approved,"Team B, Team A, Third Party",0
+APP046,Dedupe,2025-09-07 06:23:00,2025-09-07 10:18:00,235.0,0,High,Hold,Pending,Third Party,0
+APP046,PDOC,2025-09-07 17:11:00,2025-09-07 22:29:00,318.0,0,Low,Approve,Pending,"Third Party, System",0
+APP046,Sourcing,2025-09-07 01:00:00,2025-09-07 05:25:00,265.0,0,Low,Approve,Escalated,"Third Party, Auto",0
+APP046,Underwriting,2025-09-07 10:42:00,2025-09-07 16:58:00,376.0,0,High,Decline,Complete,"Team A, System",0
+APP047,DI,2025-09-02 23:37:00,2025-09-03 06:49:00,432.0,1,Low,Hold,On Hold,"Third Party, Auto",0
+APP047,Dedupe,2025-09-02 08:53:00,2025-09-02 13:16:00,263.0,0,Low,Decline,On Hold,"System, Team A",0
+APP047,PDOC,2025-09-02 17:34:00,2025-09-02 22:56:00,322.0,0,Low,Approve,Escalated,"Third Party, Team A",0
+APP047,Sourcing,2025-09-02 04:00:00,2025-09-02 08:16:00,256.0,0,Low,Hold,Pending,Team A,0
+APP047,Underwriting,2025-09-02 13:56:00,2025-09-02 17:07:00,191.0,0,High,Approve,Escalated,"Team B, System, Team A",0
+APP048,DI,2025-09-06 04:40:00,2025-09-06 14:39:00,599.0,1,Low,Approve,Approved,"System, Team B, Team A",0
+APP048,Dedupe,2025-09-05 08:20:00,2025-09-05 11:30:00,190.0,0,Low,Hold,Rejected,"Team B, System",0
+APP048,PDOC,2025-09-05 21:54:00,2025-09-06 04:01:00,367.0,0,High,Decline,Approved,"Team B, Third Party",0
+APP048,Sourcing,2025-09-05 01:00:00,2025-09-05 07:45:00,405.0,0,High,Approve,Approved,"Third Party, System",0
+APP048,Underwriting,2025-09-05 11:56:00,2025-09-05 21:35:00,579.0,0,High,Hold,Pending,"Auto, Team B, Team A",0
+APP049,DI,2025-09-06 00:44:00,2025-09-06 08:23:00,459.0,1,Medium,Decline,Pending,"Auto, Team B",0
+APP049,Dedupe,2025-09-05 08:44:00,2025-09-05 12:42:00,238.0,0,Low,Decline,Approved,"Team B, Team A",0
+APP049,PDOC,2025-09-05 21:22:00,2025-09-05 23:59:00,157.0,0,High,Approve,Approved,"Team A, System",0
+APP049,Sourcing,2025-09-05 02:00:00,2025-09-05 08:29:00,389.0,0,Medium,Decline,On Hold,"Third Party, System",0
+APP049,Underwriting,2025-09-05 13:26:00,2025-09-05 21:17:00,471.0,0,High,Hold,Escalated,"Third Party, Team A, Auto",0
+APP050,DI,2025-09-11 01:07:00,2025-09-11 04:10:00,183.0,0,Low,Hold,On Hold,"Team A, Third Party, System",0
+APP050,Dedupe,2025-09-10 08:32:00,2025-09-10 15:37:00,425.0,0,High,Hold,Escalated,System,0
+APP050,PDOC,2025-09-10 21:43:00,2025-09-11 00:55:00,192.0,0,High,Approve,Escalated,"Team A, Auto",0
+APP050,Sourcing,2025-09-10 03:00:00,2025-09-10 08:26:00,326.0,0,Medium,Hold,On Hold,"System, Third Party",0
+APP050,Underwriting,2025-09-10 15:49:00,2025-09-10 21:06:00,317.0,0,High,Hold,Pending,"Team B, System, Third Party",0
