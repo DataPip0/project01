@@ -33,4 +33,6 @@ def run():
     # Add validation to a setparate step
     validate_outputs(b.stage_master,b.application_master,config.GOLDEN_STAGE_PATH,config.GOLDEN_APP_PATH)
     
+    # Additional workflow
+    
 if __name__=="__main__": run()
