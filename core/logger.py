@@ -1,5 +1,6 @@
 import logging
 from pathlib import Path
+
 def get_logger(name: str="Project01"):
     logger = logging.getLogger(name)
     if logger.handlers: return logger

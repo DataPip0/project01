@@ -5,7 +5,9 @@ from core.transforms.process_master import ProcessMasterBuilder
 from core.transforms.validate import validate_outputs
 from core.io.writers import write_csv
 from core.logger import get_logger
+
 logger=get_logger(__name__)
+
 def run():
     df=ingest_from_csv(config.RAW_DATA_PATH)
     run_data_quality_checks(df)
@@ -15,4 +17,5 @@ def run():
     write_csv(b.application_master,config.OUTPUT_APP_PATH)
     print("\nStage Master sample:\n",b.stage_master.head(5))
     print("\nApp Master sample:\n",b.application_master.head(5))
+    
 if __name__=="__main__": run()
