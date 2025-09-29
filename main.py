@@ -37,7 +37,7 @@ def run():
     for k,g in journey_events: 
         ActivityProcessor(k)
     
-    # Add validation to a setparate step
+    # Add validation to a setparate step - this shouldnt be part of your main file, move it into a separate file for validation.
     validate_outputs(b.stage_master,b.application_master,config.GOLDEN_STAGE_PATH,config.GOLDEN_APP_PATH)
     
     # Additional workflow
