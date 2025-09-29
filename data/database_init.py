@@ -16,7 +16,7 @@ from sqlalchemy.sql import func
 class Base(DeclarativeBase):
     pass
 
-# AHMED: Go through and ensure all the tables are correctly defined in line with the specifications.
+# AHMED: Go through and ensure all the tables are correctly defined in line with the specif
 
 class Journey(Base):
     __tablename__ = "journey"
