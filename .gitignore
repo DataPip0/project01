@@ -16,7 +16,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files (optional, if not meant for git)
-*.db
-*.csv
-*.parquet
+# # Data files (optional, if not meant for git)
+# *.db
+# *.csv
+# *.parquet
