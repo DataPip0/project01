@@ -1,0 +1,51 @@
+Application_ID,Product_Type,Channel,Application_Start,Application_End,Total_TAT_Minutes,Age_Days,Final_Risk_Grade,Final_UW_Decision,Application_Status,Performed_By,Issues_Count
+APP001,Credit Card,TeleSales,2025-09-09 10:46:00,2025-09-10 11:23:00,1477.0,10,Medium,Decline,Complete,"Third Party, Auto, Team A, Team B",0
+APP002,Loan,Branch,2025-09-05 04:19:00,2025-09-06 10:55:00,1836.0,14,Low,Decline,Pending,"Third Party, Team A, Auto",0
+APP003,Other,TeleSales,2025-09-06 00:18:00,2025-09-07 07:17:00,1859.0,13,Low,Hold,Pending,"Team B, Third Party, Team A, System, Auto",0
+APP004,Loan,Branch,2025-09-04 08:10:00,2025-09-05 21:41:00,2251.0,15,High,Approve,Pending,"Third Party, System, Team B, Team A, Auto",0
+APP005,Credit Card,Partner,2025-09-04 05:56:00,2025-09-05 07:42:00,1546.0,15,Low,Decline,On Hold,"Team B, System, Auto, Third Party, Team A",0
+APP006,Other,Online,2025-09-06 09:08:00,2025-09-07 16:58:00,1910.0,13,Low,Hold,Complete,"Team B, Auto, Team A, Third Party, System",0
+APP007,Loan,Online,2025-09-04 06:22:00,2025-09-05 13:32:00,1870.0,15,Medium,Hold,On Hold,"Third Party, System, Team A, Auto, Team B",0
+APP008,Loan,TeleSales,2025-09-03 05:58:00,2025-09-04 05:27:00,1409.0,16,Medium,Decline,Rejected,"Third Party, Auto, Team B, System, Team A",0
+APP009,Credit Card,Partner,2025-09-08 07:29:00,2025-09-09 12:19:00,1730.0,11,Low,Approve,Rejected,"System, Team A, Third Party, Team B, Auto",0
+APP010,Other,Partner,2025-09-10 01:48:00,2025-09-11 08:09:00,1821.0,9,Medium,Hold,On Hold,"Team A, Auto, Third Party, Team B, System",0
+APP011,Other,Branch,2025-09-04 02:31:00,2025-09-05 08:25:00,1794.0,15,Medium,Approve,Complete,"Team A, System, Third Party, Team B",0
+APP012,Credit Card,Branch,2025-09-09 06:04:00,2025-09-10 11:11:00,1747.0,10,Low,Hold,Pending,"Third Party, Auto, Team B, Team A",0
+APP013,Loan,TeleSales,2025-09-10 07:25:00,2025-09-11 09:33:00,1568.0,9,Medium,Decline,Escalated,"Team B, System, Auto, Team A",0
+APP014,Credit Card,Online,2025-09-10 06:33:00,2025-09-11 11:26:00,1733.0,9,Low,Approve,Approved,"Team A, Auto, Team B, Third Party, System",0
+APP015,Credit Card,Partner,2025-09-04 06:05:00,2025-09-05 08:00:00,1555.0,15,Low,Hold,On Hold,"Third Party, System, Team A, Team B",0
+APP016,Loan,TeleSales,2025-09-06 01:20:00,2025-09-07 09:01:00,1901.0,13,High,Approve,Complete,"System, Team A, Team B, Third Party, Auto",0
+APP017,Loan,Branch,2025-09-01 03:56:00,2025-09-02 15:17:00,2121.0,18,Low,Decline,Rejected,"System, Third Party, Auto, Team A",0
+APP018,Other,Online,2025-09-08 10:51:00,2025-09-09 13:21:00,1590.0,11,High,Hold,Pending,"Team B, Auto, System, Team A, Third Party",0
+APP019,Credit Card,TeleSales,2025-09-04 09:15:00,2025-09-05 12:47:00,1652.0,15,High,Hold,Rejected,"Third Party, Team A, Auto",0
+APP020,Loan,Branch,2025-09-03 10:36:00,2025-09-04 18:35:00,1919.0,16,Medium,Decline,Escalated,"Team A, System, Auto, Third Party, Team B",0
+APP021,Loan,Partner,2025-09-06 00:47:00,2025-09-07 09:47:00,1980.0,13,High,Approve,Escalated,"Auto, Third Party, System, Team B, Team A",0
+APP022,Credit Card,Branch,2025-09-02 02:46:00,2025-09-03 07:49:00,1743.0,17,Medium,Approve,Escalated,"Team B, Third Party, Team A, System, Auto",0
+APP023,Other,Branch,2025-09-07 06:43:00,2025-09-08 14:06:00,1883.0,12,Low,Decline,Complete,"System, Team B, Auto, Third Party",0
+APP024,Loan,Branch,2025-09-08 04:52:00,2025-09-09 05:34:00,1482.0,11,High,Decline,Escalated,"Auto, Team A, Third Party, Team B, System",0
+APP025,Loan,TeleSales,2025-09-06 09:36:00,2025-09-07 14:39:00,1743.0,13,High,Decline,On Hold,"System, Auto, Team A, Team B, Third Party",0
+APP026,Other,Online,2025-09-03 08:18:00,2025-09-04 13:31:00,1753.0,16,Medium,Decline,Complete,"Third Party, Team A, Auto, Team B, System",0
+APP027,Loan,TeleSales,2025-09-11 01:25:00,2025-09-12 04:07:00,1602.0,8,Medium,Hold,Complete,"Third Party, Team B, Auto, System, Team A",0
+APP028,Other,Branch,2025-09-08 10:09:00,2025-09-09 18:50:00,1961.0,11,Medium,Hold,Rejected,"Auto, Team A, System, Team B, Third Party",0
+APP029,Other,Partner,2025-09-11 05:12:00,2025-09-12 03:45:00,1353.0,8,Medium,Decline,Pending,"Auto, System, Team B, Team A, Third Party",0
+APP030,Loan,Partner,2025-09-10 06:16:00,2025-09-11 08:59:00,1603.0,9,Low,Approve,Pending,"Team A, Auto, System, Third Party, Team B",0
+APP031,Credit Card,Online,2025-09-11 05:36:00,2025-09-12 13:09:00,1893.0,8,High,Decline,Pending,"Auto, System, Team A, Third Party, Team B",0
+APP032,Loan,TeleSales,2025-09-02 07:26:00,2025-09-03 07:32:00,1446.0,17,Medium,Hold,Pending,"Team B, Third Party, Auto, Team A",0
+APP033,Loan,Branch,2025-09-09 09:23:00,2025-09-10 11:51:00,1588.0,10,High,Approve,Escalated,"Auto, System, Team B, Team A",0
+APP034,Loan,TeleSales,2025-09-10 07:29:00,2025-09-11 11:36:00,1687.0,9,Medium,Hold,On Hold,"System, Auto, Third Party, Team B",0
+APP035,Other,Online,2025-09-08 01:51:00,2025-09-09 02:51:00,1500.0,11,Low,Approve,Approved,"Auto, Third Party, System, Team B",0
+APP036,Loan,TeleSales,2025-09-10 10:29:00,2025-09-11 17:07:00,1838.0,9,Medium,Approve,On Hold,"System, Team A, Team B, Auto",0
+APP037,Credit Card,Partner,2025-09-02 01:21:00,2025-09-03 16:22:00,2341.0,17,High,Decline,Pending,"Third Party, Team B, Auto, System",0
+APP038,Loan,Partner,2025-09-10 06:02:00,2025-09-11 11:16:00,1754.0,9,High,Hold,Complete,"Auto, System, Team A, Team B, Third Party",0
+APP039,Credit Card,TeleSales,2025-09-07 08:36:00,2025-09-08 13:36:00,1740.0,12,Medium,Approve,Escalated,"Team A, System, Third Party",0
+APP040,Credit Card,Partner,2025-09-11 10:15:00,2025-09-12 14:11:00,1676.0,8,Low,Hold,Rejected,"Team B, Auto, Third Party, Team A, System",0
+APP041,Other,Online,2025-09-08 06:31:00,2025-09-09 10:49:00,1698.0,11,Medium,Approve,On Hold,"Third Party, Auto, Team A, Team B, System",0
+APP042,Credit Card,TeleSales,2025-09-05 11:15:00,2025-09-06 13:53:00,1598.0,14,Medium,Decline,Escalated,"Team A, Auto, Third Party, System, Team B",0
+APP043,Other,Online,2025-09-06 00:55:00,2025-09-07 05:00:00,1685.0,13,Low,Approve,Approved,"Team B, Auto, Team A, Third Party, System",0
+APP044,Loan,Branch,2025-09-10 04:12:00,2025-09-11 15:35:00,2123.0,9,Medium,Decline,Escalated,"Auto, Third Party, Team B, System, Team A",0
+APP045,Other,Branch,2025-09-10 06:05:00,2025-09-11 08:25:00,1580.0,9,Low,Decline,Approved,"Third Party, Team B, Team A, Auto",0
+APP046,Credit Card,Online,2025-09-07 02:57:00,2025-09-08 09:59:00,1862.0,12,Low,Decline,Approved,"Third Party, Auto, Team A, System, Team B",0
+APP047,Credit Card,TeleSales,2025-09-02 05:45:00,2025-09-03 06:49:00,1504.0,17,Low,Hold,On Hold,"Team A, System, Team B, Third Party, Auto",0
+APP048,Credit Card,Branch,2025-09-05 04:40:00,2025-09-06 14:39:00,2039.0,14,Low,Approve,Approved,"Third Party, System, Team B, Auto, Team A",0
+APP049,Credit Card,TeleSales,2025-09-05 04:47:00,2025-09-06 08:23:00,1656.0,14,Medium,Decline,Pending,"Third Party, System, Team B, Team A, Auto",0
+APP050,Loan,TeleSales,2025-09-10 05:55:00,2025-09-11 04:10:00,1335.0,9,Low,Hold,On Hold,"System, Third Party, Team B, Team A, Auto",0

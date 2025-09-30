@@ -1,0 +1,272 @@
+2025-09-30 17:01:41,185 | INFO | __main__ | [RUN] events_project01 starting…
+2025-09-30 17:01:41,308 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-09-30 17:01:41,322 | INFO | __main__ | [INGEST] raw rows=600 cols=43
+2025-09-30 17:01:41,335 | WARNING | core.quality.dq_checks | [DQ] Issues detected: {'nulls': {'Dedupe_Flag': 218, 'Dedupe_Match_Type': 189, 'Existing_Record_Flag': 197, 'Fraud_Flag': 210, 'Exception_Flag': 202, 'Employment_Verified': 197, 'Income_Verified': 202, 'Address_Verified': 202, 'Escalation_Required': 210, 'Documents_Collected_Flag': 185, 'Welcome_Kit_Sent': 205}}
+2025-09-30 17:01:41,344 | INFO | __main__ | [CLASSIFY] events=600 journeys=50
+2025-09-30 17:01:41,369 | INFO | core.classes.activity_processor | [JOURNEY] created: APP001
+2025-09-30 17:01:41,405 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP001 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,405 | INFO | core.classes.activity_processor | [PROCESS] journey=APP001 rows=12 committed.
+2025-09-30 17:01:41,409 | INFO | core.classes.activity_processor | [JOURNEY] created: APP002
+2025-09-30 17:01:41,435 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP002 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,435 | INFO | core.classes.activity_processor | [PROCESS] journey=APP002 rows=12 committed.
+2025-09-30 17:01:41,439 | INFO | core.classes.activity_processor | [JOURNEY] created: APP003
+2025-09-30 17:01:41,466 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP003 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,467 | INFO | core.classes.activity_processor | [PROCESS] journey=APP003 rows=12 committed.
+2025-09-30 17:01:41,470 | INFO | core.classes.activity_processor | [JOURNEY] created: APP004
+2025-09-30 17:01:41,498 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP004 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,498 | INFO | core.classes.activity_processor | [PROCESS] journey=APP004 rows=12 committed.
+2025-09-30 17:01:41,502 | INFO | core.classes.activity_processor | [JOURNEY] created: APP005
+2025-09-30 17:01:41,527 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP005 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,527 | INFO | core.classes.activity_processor | [PROCESS] journey=APP005 rows=12 committed.
+2025-09-30 17:01:41,531 | INFO | core.classes.activity_processor | [JOURNEY] created: APP006
+2025-09-30 17:01:41,559 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP006 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,559 | INFO | core.classes.activity_processor | [PROCESS] journey=APP006 rows=12 committed.
+2025-09-30 17:01:41,563 | INFO | core.classes.activity_processor | [JOURNEY] created: APP007
+2025-09-30 17:01:41,588 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP007 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,589 | INFO | core.classes.activity_processor | [PROCESS] journey=APP007 rows=12 committed.
+2025-09-30 17:01:41,592 | INFO | core.classes.activity_processor | [JOURNEY] created: APP008
+2025-09-30 17:01:41,620 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP008 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,620 | INFO | core.classes.activity_processor | [PROCESS] journey=APP008 rows=12 committed.
+2025-09-30 17:01:41,624 | INFO | core.classes.activity_processor | [JOURNEY] created: APP009
+2025-09-30 17:01:41,649 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP009 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,649 | INFO | core.classes.activity_processor | [PROCESS] journey=APP009 rows=12 committed.
+2025-09-30 17:01:41,653 | INFO | core.classes.activity_processor | [JOURNEY] created: APP010
+2025-09-30 17:01:41,682 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP010 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,682 | INFO | core.classes.activity_processor | [PROCESS] journey=APP010 rows=12 committed.
+2025-09-30 17:01:41,686 | INFO | core.classes.activity_processor | [JOURNEY] created: APP011
+2025-09-30 17:01:41,716 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP011 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,716 | INFO | core.classes.activity_processor | [PROCESS] journey=APP011 rows=12 committed.
+2025-09-30 17:01:41,719 | INFO | core.classes.activity_processor | [JOURNEY] created: APP012
+2025-09-30 17:01:41,746 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP012 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,746 | INFO | core.classes.activity_processor | [PROCESS] journey=APP012 rows=12 committed.
+2025-09-30 17:01:41,750 | INFO | core.classes.activity_processor | [JOURNEY] created: APP013
+2025-09-30 17:01:41,778 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP013 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,778 | INFO | core.classes.activity_processor | [PROCESS] journey=APP013 rows=12 committed.
+2025-09-30 17:01:41,782 | INFO | core.classes.activity_processor | [JOURNEY] created: APP014
+2025-09-30 17:01:41,809 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP014 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,809 | INFO | core.classes.activity_processor | [PROCESS] journey=APP014 rows=12 committed.
+2025-09-30 17:01:41,813 | INFO | core.classes.activity_processor | [JOURNEY] created: APP015
+2025-09-30 17:01:41,838 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP015 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,838 | INFO | core.classes.activity_processor | [PROCESS] journey=APP015 rows=12 committed.
+2025-09-30 17:01:41,842 | INFO | core.classes.activity_processor | [JOURNEY] created: APP016
+2025-09-30 17:01:41,869 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP016 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,869 | INFO | core.classes.activity_processor | [PROCESS] journey=APP016 rows=12 committed.
+2025-09-30 17:01:41,872 | INFO | core.classes.activity_processor | [JOURNEY] created: APP017
+2025-09-30 17:01:41,902 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP017 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,902 | INFO | core.classes.activity_processor | [PROCESS] journey=APP017 rows=12 committed.
+2025-09-30 17:01:41,906 | INFO | core.classes.activity_processor | [JOURNEY] created: APP018
+2025-09-30 17:01:41,933 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP018 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,933 | INFO | core.classes.activity_processor | [PROCESS] journey=APP018 rows=12 committed.
+2025-09-30 17:01:41,937 | INFO | core.classes.activity_processor | [JOURNEY] created: APP019
+2025-09-30 17:01:41,964 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP019 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,964 | INFO | core.classes.activity_processor | [PROCESS] journey=APP019 rows=12 committed.
+2025-09-30 17:01:41,967 | INFO | core.classes.activity_processor | [JOURNEY] created: APP020
+2025-09-30 17:01:41,995 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP020 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:41,995 | INFO | core.classes.activity_processor | [PROCESS] journey=APP020 rows=12 committed.
+2025-09-30 17:01:41,998 | INFO | core.classes.activity_processor | [JOURNEY] created: APP021
+2025-09-30 17:01:42,024 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP021 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,024 | INFO | core.classes.activity_processor | [PROCESS] journey=APP021 rows=12 committed.
+2025-09-30 17:01:42,028 | INFO | core.classes.activity_processor | [JOURNEY] created: APP022
+2025-09-30 17:01:42,054 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP022 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,054 | INFO | core.classes.activity_processor | [PROCESS] journey=APP022 rows=12 committed.
+2025-09-30 17:01:42,058 | INFO | core.classes.activity_processor | [JOURNEY] created: APP023
+2025-09-30 17:01:42,085 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP023 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,086 | INFO | core.classes.activity_processor | [PROCESS] journey=APP023 rows=12 committed.
+2025-09-30 17:01:42,089 | INFO | core.classes.activity_processor | [JOURNEY] created: APP024
+2025-09-30 17:01:42,119 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP024 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,119 | INFO | core.classes.activity_processor | [PROCESS] journey=APP024 rows=12 committed.
+2025-09-30 17:01:42,124 | INFO | core.classes.activity_processor | [JOURNEY] created: APP025
+2025-09-30 17:01:42,155 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP025 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,156 | INFO | core.classes.activity_processor | [PROCESS] journey=APP025 rows=12 committed.
+2025-09-30 17:01:42,159 | INFO | core.classes.activity_processor | [JOURNEY] created: APP026
+2025-09-30 17:01:42,186 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP026 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,186 | INFO | core.classes.activity_processor | [PROCESS] journey=APP026 rows=12 committed.
+2025-09-30 17:01:42,190 | INFO | core.classes.activity_processor | [JOURNEY] created: APP027
+2025-09-30 17:01:42,218 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP027 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,218 | INFO | core.classes.activity_processor | [PROCESS] journey=APP027 rows=12 committed.
+2025-09-30 17:01:42,221 | INFO | core.classes.activity_processor | [JOURNEY] created: APP028
+2025-09-30 17:01:42,249 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP028 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,249 | INFO | core.classes.activity_processor | [PROCESS] journey=APP028 rows=12 committed.
+2025-09-30 17:01:42,252 | INFO | core.classes.activity_processor | [JOURNEY] created: APP029
+2025-09-30 17:01:42,276 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP029 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,276 | INFO | core.classes.activity_processor | [PROCESS] journey=APP029 rows=12 committed.
+2025-09-30 17:01:42,280 | INFO | core.classes.activity_processor | [JOURNEY] created: APP030
+2025-09-30 17:01:42,307 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP030 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,307 | INFO | core.classes.activity_processor | [PROCESS] journey=APP030 rows=12 committed.
+2025-09-30 17:01:42,311 | INFO | core.classes.activity_processor | [JOURNEY] created: APP031
+2025-09-30 17:01:42,339 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP031 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,339 | INFO | core.classes.activity_processor | [PROCESS] journey=APP031 rows=12 committed.
+2025-09-30 17:01:42,343 | INFO | core.classes.activity_processor | [JOURNEY] created: APP032
+2025-09-30 17:01:42,367 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP032 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,367 | INFO | core.classes.activity_processor | [PROCESS] journey=APP032 rows=12 committed.
+2025-09-30 17:01:42,370 | INFO | core.classes.activity_processor | [JOURNEY] created: APP033
+2025-09-30 17:01:42,399 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP033 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,399 | INFO | core.classes.activity_processor | [PROCESS] journey=APP033 rows=12 committed.
+2025-09-30 17:01:42,403 | INFO | core.classes.activity_processor | [JOURNEY] created: APP034
+2025-09-30 17:01:42,428 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP034 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,428 | INFO | core.classes.activity_processor | [PROCESS] journey=APP034 rows=12 committed.
+2025-09-30 17:01:42,432 | INFO | core.classes.activity_processor | [JOURNEY] created: APP035
+2025-09-30 17:01:42,456 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP035 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,457 | INFO | core.classes.activity_processor | [PROCESS] journey=APP035 rows=12 committed.
+2025-09-30 17:01:42,460 | INFO | core.classes.activity_processor | [JOURNEY] created: APP036
+2025-09-30 17:01:42,486 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP036 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,486 | INFO | core.classes.activity_processor | [PROCESS] journey=APP036 rows=12 committed.
+2025-09-30 17:01:42,489 | INFO | core.classes.activity_processor | [JOURNEY] created: APP037
+2025-09-30 17:01:42,516 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP037 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,516 | INFO | core.classes.activity_processor | [PROCESS] journey=APP037 rows=12 committed.
+2025-09-30 17:01:42,519 | INFO | core.classes.activity_processor | [JOURNEY] created: APP038
+2025-09-30 17:01:42,545 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP038 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,545 | INFO | core.classes.activity_processor | [PROCESS] journey=APP038 rows=12 committed.
+2025-09-30 17:01:42,548 | INFO | core.classes.activity_processor | [JOURNEY] created: APP039
+2025-09-30 17:01:42,574 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP039 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,574 | INFO | core.classes.activity_processor | [PROCESS] journey=APP039 rows=12 committed.
+2025-09-30 17:01:42,577 | INFO | core.classes.activity_processor | [JOURNEY] created: APP040
+2025-09-30 17:01:42,605 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP040 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,605 | INFO | core.classes.activity_processor | [PROCESS] journey=APP040 rows=12 committed.
+2025-09-30 17:01:42,608 | INFO | core.classes.activity_processor | [JOURNEY] created: APP041
+2025-09-30 17:01:42,633 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP041 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,634 | INFO | core.classes.activity_processor | [PROCESS] journey=APP041 rows=12 committed.
+2025-09-30 17:01:42,637 | INFO | core.classes.activity_processor | [JOURNEY] created: APP042
+2025-09-30 17:01:42,660 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP042 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,661 | INFO | core.classes.activity_processor | [PROCESS] journey=APP042 rows=12 committed.
+2025-09-30 17:01:42,664 | INFO | core.classes.activity_processor | [JOURNEY] created: APP043
+2025-09-30 17:01:42,689 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP043 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,689 | INFO | core.classes.activity_processor | [PROCESS] journey=APP043 rows=12 committed.
+2025-09-30 17:01:42,692 | INFO | core.classes.activity_processor | [JOURNEY] created: APP044
+2025-09-30 17:01:42,715 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP044 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,716 | INFO | core.classes.activity_processor | [PROCESS] journey=APP044 rows=12 committed.
+2025-09-30 17:01:42,719 | INFO | core.classes.activity_processor | [JOURNEY] created: APP045
+2025-09-30 17:01:42,744 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP045 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,744 | INFO | core.classes.activity_processor | [PROCESS] journey=APP045 rows=12 committed.
+2025-09-30 17:01:42,748 | INFO | core.classes.activity_processor | [JOURNEY] created: APP046
+2025-09-30 17:01:42,774 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP046 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,774 | INFO | core.classes.activity_processor | [PROCESS] journey=APP046 rows=12 committed.
+2025-09-30 17:01:42,777 | INFO | core.classes.activity_processor | [JOURNEY] created: APP047
+2025-09-30 17:01:42,805 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP047 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,806 | INFO | core.classes.activity_processor | [PROCESS] journey=APP047 rows=12 committed.
+2025-09-30 17:01:42,809 | INFO | core.classes.activity_processor | [JOURNEY] created: APP048
+2025-09-30 17:01:42,838 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP048 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,838 | INFO | core.classes.activity_processor | [PROCESS] journey=APP048 rows=12 committed.
+2025-09-30 17:01:42,841 | INFO | core.classes.activity_processor | [JOURNEY] created: APP049
+2025-09-30 17:01:42,865 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP049 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,866 | INFO | core.classes.activity_processor | [PROCESS] journey=APP049 rows=12 committed.
+2025-09-30 17:01:42,869 | INFO | core.classes.activity_processor | [JOURNEY] created: APP050
+2025-09-30 17:01:42,895 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP050 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:01:42,896 | INFO | core.classes.activity_processor | [PROCESS] journey=APP050 rows=12 committed.
+2025-09-30 17:01:43,196 | INFO | core.transforms.process_master | [STAGE] rows=250
+2025-09-30 17:01:43,229 | INFO | core.transforms.process_master | [APP] rows=50
+2025-09-30 17:01:43,254 | WARNING | core.transforms.validate | [VALIDATE] Differences detected vs golden.
+2025-09-30 17:01:43,686 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_stage_master.csv
+2025-09-30 17:01:44,751 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_application_master.csv
+2025-09-30 17:01:44,777 | INFO | __main__ | [RUN] events_project01 finished.
+2025-09-30 17:02:21,930 | INFO | pipelines.events_project01 | [RUN] events_project01 starting…
+2025-09-30 17:02:21,954 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-09-30 17:02:21,960 | INFO | pipelines.events_project01 | [INGEST] raw rows=600 cols=43
+2025-09-30 17:02:21,967 | WARNING | core.quality.dq_checks | [DQ] Issues detected: {'nulls': {'Dedupe_Flag': 218, 'Dedupe_Match_Type': 189, 'Existing_Record_Flag': 197, 'Fraud_Flag': 210, 'Exception_Flag': 202, 'Employment_Verified': 197, 'Income_Verified': 202, 'Address_Verified': 202, 'Escalation_Required': 210, 'Documents_Collected_Flag': 185, 'Welcome_Kit_Sent': 205}}
+2025-09-30 17:02:21,975 | INFO | pipelines.events_project01 | [CLASSIFY] events=600 journeys=50
+2025-09-30 17:02:22,013 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP001 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,013 | INFO | core.classes.activity_processor | [PROCESS] journey=APP001 rows=12 committed.
+2025-09-30 17:02:22,035 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP002 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,035 | INFO | core.classes.activity_processor | [PROCESS] journey=APP002 rows=12 committed.
+2025-09-30 17:02:22,060 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP003 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,060 | INFO | core.classes.activity_processor | [PROCESS] journey=APP003 rows=12 committed.
+2025-09-30 17:02:22,081 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP004 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,081 | INFO | core.classes.activity_processor | [PROCESS] journey=APP004 rows=12 committed.
+2025-09-30 17:02:22,108 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP005 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,108 | INFO | core.classes.activity_processor | [PROCESS] journey=APP005 rows=12 committed.
+2025-09-30 17:02:22,131 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP006 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,131 | INFO | core.classes.activity_processor | [PROCESS] journey=APP006 rows=12 committed.
+2025-09-30 17:02:22,152 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP007 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,153 | INFO | core.classes.activity_processor | [PROCESS] journey=APP007 rows=12 committed.
+2025-09-30 17:02:22,177 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP008 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,177 | INFO | core.classes.activity_processor | [PROCESS] journey=APP008 rows=12 committed.
+2025-09-30 17:02:22,199 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP009 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,199 | INFO | core.classes.activity_processor | [PROCESS] journey=APP009 rows=12 committed.
+2025-09-30 17:02:22,225 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP010 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,226 | INFO | core.classes.activity_processor | [PROCESS] journey=APP010 rows=12 committed.
+2025-09-30 17:02:22,249 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP011 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,249 | INFO | core.classes.activity_processor | [PROCESS] journey=APP011 rows=12 committed.
+2025-09-30 17:02:22,271 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP012 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,271 | INFO | core.classes.activity_processor | [PROCESS] journey=APP012 rows=12 committed.
+2025-09-30 17:02:22,295 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP013 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,295 | INFO | core.classes.activity_processor | [PROCESS] journey=APP013 rows=12 committed.
+2025-09-30 17:02:22,319 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP014 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,319 | INFO | core.classes.activity_processor | [PROCESS] journey=APP014 rows=12 committed.
+2025-09-30 17:02:22,342 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP015 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,343 | INFO | core.classes.activity_processor | [PROCESS] journey=APP015 rows=12 committed.
+2025-09-30 17:02:22,364 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP016 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,365 | INFO | core.classes.activity_processor | [PROCESS] journey=APP016 rows=12 committed.
+2025-09-30 17:02:22,387 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP017 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,387 | INFO | core.classes.activity_processor | [PROCESS] journey=APP017 rows=12 committed.
+2025-09-30 17:02:22,414 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP018 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,414 | INFO | core.classes.activity_processor | [PROCESS] journey=APP018 rows=12 committed.
+2025-09-30 17:02:22,436 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP019 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,436 | INFO | core.classes.activity_processor | [PROCESS] journey=APP019 rows=12 committed.
+2025-09-30 17:02:22,463 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP020 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,463 | INFO | core.classes.activity_processor | [PROCESS] journey=APP020 rows=12 committed.
+2025-09-30 17:02:22,488 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP021 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,488 | INFO | core.classes.activity_processor | [PROCESS] journey=APP021 rows=12 committed.
+2025-09-30 17:02:22,510 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP022 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,510 | INFO | core.classes.activity_processor | [PROCESS] journey=APP022 rows=12 committed.
+2025-09-30 17:02:22,535 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP023 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,535 | INFO | core.classes.activity_processor | [PROCESS] journey=APP023 rows=12 committed.
+2025-09-30 17:02:22,561 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP024 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,561 | INFO | core.classes.activity_processor | [PROCESS] journey=APP024 rows=12 committed.
+2025-09-30 17:02:22,593 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP025 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,593 | INFO | core.classes.activity_processor | [PROCESS] journey=APP025 rows=12 committed.
+2025-09-30 17:02:22,620 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP026 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,620 | INFO | core.classes.activity_processor | [PROCESS] journey=APP026 rows=12 committed.
+2025-09-30 17:02:22,642 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP027 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,642 | INFO | core.classes.activity_processor | [PROCESS] journey=APP027 rows=12 committed.
+2025-09-30 17:02:22,665 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP028 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,665 | INFO | core.classes.activity_processor | [PROCESS] journey=APP028 rows=12 committed.
+2025-09-30 17:02:22,688 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP029 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,688 | INFO | core.classes.activity_processor | [PROCESS] journey=APP029 rows=12 committed.
+2025-09-30 17:02:22,714 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP030 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,714 | INFO | core.classes.activity_processor | [PROCESS] journey=APP030 rows=12 committed.
+2025-09-30 17:02:22,736 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP031 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,736 | INFO | core.classes.activity_processor | [PROCESS] journey=APP031 rows=12 committed.
+2025-09-30 17:02:22,758 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP032 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,758 | INFO | core.classes.activity_processor | [PROCESS] journey=APP032 rows=12 committed.
+2025-09-30 17:02:22,783 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP033 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,783 | INFO | core.classes.activity_processor | [PROCESS] journey=APP033 rows=12 committed.
+2025-09-30 17:02:22,805 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP034 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,805 | INFO | core.classes.activity_processor | [PROCESS] journey=APP034 rows=12 committed.
+2025-09-30 17:02:22,829 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP035 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,829 | INFO | core.classes.activity_processor | [PROCESS] journey=APP035 rows=12 committed.
+2025-09-30 17:02:22,851 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP036 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,851 | INFO | core.classes.activity_processor | [PROCESS] journey=APP036 rows=12 committed.
+2025-09-30 17:02:22,874 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP037 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,874 | INFO | core.classes.activity_processor | [PROCESS] journey=APP037 rows=12 committed.
+2025-09-30 17:02:22,898 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP038 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,899 | INFO | core.classes.activity_processor | [PROCESS] journey=APP038 rows=12 committed.
+2025-09-30 17:02:22,922 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP039 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,922 | INFO | core.classes.activity_processor | [PROCESS] journey=APP039 rows=12 committed.
+2025-09-30 17:02:22,947 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP040 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,947 | INFO | core.classes.activity_processor | [PROCESS] journey=APP040 rows=12 committed.
+2025-09-30 17:02:22,970 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP041 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,970 | INFO | core.classes.activity_processor | [PROCESS] journey=APP041 rows=12 committed.
+2025-09-30 17:02:22,993 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP042 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:22,993 | INFO | core.classes.activity_processor | [PROCESS] journey=APP042 rows=12 committed.
+2025-09-30 17:02:23,016 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP043 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,017 | INFO | core.classes.activity_processor | [PROCESS] journey=APP043 rows=12 committed.
+2025-09-30 17:02:23,041 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP044 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,041 | INFO | core.classes.activity_processor | [PROCESS] journey=APP044 rows=12 committed.
+2025-09-30 17:02:23,066 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP045 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,066 | INFO | core.classes.activity_processor | [PROCESS] journey=APP045 rows=12 committed.
+2025-09-30 17:02:23,091 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP046 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,091 | INFO | core.classes.activity_processor | [PROCESS] journey=APP046 rows=12 committed.
+2025-09-30 17:02:23,115 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP047 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,115 | INFO | core.classes.activity_processor | [PROCESS] journey=APP047 rows=12 committed.
+2025-09-30 17:02:23,140 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP048 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,140 | INFO | core.classes.activity_processor | [PROCESS] journey=APP048 rows=12 committed.
+2025-09-30 17:02:23,161 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP049 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,162 | INFO | core.classes.activity_processor | [PROCESS] journey=APP049 rows=12 committed.
+2025-09-30 17:02:23,185 | INFO | core.classes.activity_processor | [SUMMARY] journey=APP050 events=12 steps_seen=5 issues_from_events=0
+2025-09-30 17:02:23,185 | INFO | core.classes.activity_processor | [PROCESS] journey=APP050 rows=12 committed.
+2025-09-30 17:02:23,463 | INFO | core.transforms.process_master | [STAGE] rows=250
+2025-09-30 17:02:23,493 | INFO | core.transforms.process_master | [APP] rows=50
+2025-09-30 17:02:23,515 | WARNING | core.transforms.validate | [VALIDATE] Differences detected vs golden.
+2025-09-30 17:02:23,527 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_stage_master.csv
+2025-09-30 17:02:23,536 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_application_master.csv
+2025-09-30 17:02:23,558 | INFO | pipelines.events_project01 | [RUN] events_project01 finished.
