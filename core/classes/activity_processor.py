@@ -112,28 +112,28 @@ def run_pipeline(df: pd.DataFrame, *, params: Dict[str, Any]) -> Dict[str, Any]:
     work = df.copy()
 
     if params.get("dropna"):
-    work = work.dropna()
+        work = work.dropna()
 
     if params.get("dedupe"):
-    work = work.drop_duplicates()
+        work = work.drop_duplicates()
 
     profile: Dict[str, Any] = {
-    "row_count": int(len(work)),
-    "numeric_columns": [c for c in work.columns if pd.api.types.is_numeric_dtype(work[c])],
-    }
+        "row_count": int(len(work)),
+        "numeric_columns": [c for c in work.columns if pd.api.types.is_numeric_dtype(work[c])],
+        }
 
     # Simple numeric summary (limit to first 10 columns to avoid huge payloads)
     sample_numeric = work.select_dtypes(include=["number"]).iloc[:, :10]
     if not sample_numeric.empty:
-    desc = sample_numeric.describe().to_dict()
+        desc = sample_numeric.describe().to_dict()
     else:
-    desc = {}
+        desc = {}
 
     # You could do your own long‑running job here (sync). For async/queue based
     # execution, integrate Celery/RQ later and return a job id instead.
 
     return {
-    "profile": profile,
-    "describe": desc,
-    "params_used": params,
-}
+        "profile": profile,
+        "describe": desc,
+        "params_used": params,
+    }
