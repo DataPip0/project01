@@ -270,3 +270,12 @@
 2025-09-30 17:02:23,527 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_stage_master.csv
 2025-09-30 17:02:23,536 | INFO | core.io.writers | [PUBLISH] Saved -> /content/drive/MyDrive/data sets/output_application_master.csv
 2025-09-30 17:02:23,558 | INFO | pipelines.events_project01 | [RUN] events_project01 finished.
+2025-10-02 11:54:12,392 | INFO | __main__ | Starting app (ENV=default)
+2025-10-02 11:54:13,471 | INFO | __main__ | DB initialized url=sqlite:///data/app.db echo=False
+2025-10-02 11:55:41,398 | INFO | __main__ | Starting app (ENV=default)
+2025-10-02 11:55:41,427 | INFO | __main__ | DB initialized url=sqlite:///data/app.db echo=False
+2025-10-02 12:44:39,720 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 12:46:22,327 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 12:48:16,785 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 12:48:35,378 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 12:51:14,668 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43

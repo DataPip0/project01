@@ -1,4 +1,13 @@
-pandas>=2.1.0
+pandas>=2.2.2
 python-dateutil>=2.9.0
 pytest>=8.0.0
 SQLAlchemy>=2.0.0
+# Flask
+flask==3.0.3
+# Production WSGI server
+gunicorn==22.0.0
+# Data handling
+pandas==2.2.2
+# Optional (if you deploy behind a proxy/load balancer)
+werkzeug==3.0.3
+
