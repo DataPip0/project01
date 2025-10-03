@@ -297,3 +297,480 @@
 2025-10-02 15:51:42,315 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
 2025-10-02 15:51:42,339 | INFO | pipelines.master_workflow | [INGEST] records=[]
 2025-10-02 15:52:25,665 | INFO | pipelines.master_workflow | [INGEST] records=[]
+2025-10-02 18:01:53,639 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:01:53,672 | INFO | pipelines.master_workflow | [INGEST] records=[]
+2025-10-02 18:02:01,567 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:02:01,694 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:02:09,819 | INFO | pipelines.master_workflow | [INGEST] records=[]
+2025-10-02 18:07:13,740 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:07:13,764 | INFO | pipelines.master_workflow | [INGEST] records=[]
+2025-10-02 18:07:58,248 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:08:04,862 | INFO | pipelines.master_workflow | [INGEST] records=[]
+2025-10-02 18:09:50,807 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:10:27,548 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:12:07,277 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-02 18:17:15,564 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 09:19:20,881 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:01:34,669 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:03:10,942 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:07:27,726 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:08:01,347 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:13:49,251 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:18:11,152 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:19:19,768 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:19:45,222 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:25:14,327 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:26:03,007 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:29:30,925 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:30:50,754 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:31:16,802 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:31:16,871 | INFO | pipelines.master_workflow | [info] records=     Activity_ID Application_ID Product_Type    Channel         Stage  \
+0              1         APP001  Credit Card  TeleSales      Sourcing   
+1              2         APP001  Credit Card  TeleSales      Sourcing   
+2              3         APP001  Credit Card  TeleSales        Dedupe   
+3              4         APP001  Credit Card  TeleSales        Dedupe   
+4              5         APP001  Credit Card  TeleSales  Underwriting   
+..           ...            ...          ...        ...           ...   
+595          596         APP050         Loan  TeleSales          PDOC   
+596          597         APP050         Loan  TeleSales          PDOC   
+597          598         APP050         Loan  TeleSales            DI   
+598          599         APP050         Loan  TeleSales            DI   
+599          600         APP050         Loan  TeleSales            DI   
+
+           Activity_Type  Activity_Timestamp Performed_By  \
+0              Submitted 2025-09-09 10:46:00  Third Party   
+1               Reviewed 2025-09-09 13:10:00         Auto   
+2                Checked 2025-09-09 16:33:00       Team A   
+3                Flagged 2025-09-09 20:00:00         Auto   
+4     Verified Documents 2025-09-09 21:08:00       Team A   
+..                   ...                 ...          ...   
+595  Documents Collected 2025-09-10 22:53:00       Team A   
+596        PDOC Reviewed 2025-09-11 00:55:00         Auto   
+597            Disbursed 2025-09-11 02:27:00       Team A   
+598            Activated 2025-09-11 03:21:00  Third Party   
+599     Welcome Kit Sent 2025-09-11 04:10:00       System   
+
+    Status_After_Activity                            Activity_Notes  ...  \
+0                 On Hold               Submitted done for Sourcing  ...   
+1                 On Hold                Reviewed done for Sourcing  ...   
+2                 Pending                   Checked done for Dedupe  ...   
+3                 On Hold                   Flagged done for Dedupe  ...   
+4                 Pending  Verified Documents done for Underwriting  ...   
+..                    ...                                       ...  ...   
+595               On Hold         Documents Collected done for PDOC  ...   
+596             Escalated               PDOC Reviewed done for PDOC  ...   
+597              Approved                     Disbursed done for DI  ...   
+598               On Hold                     Activated done for DI  ...   
+599               On Hold              Welcome Kit Sent done for DI  ...   
+
+               DI_Notes Stage_Start_Timestamp Stage_End_Timestamp  \
+0    DI note for APP001   2025-09-09 07:00:00 2025-09-09 10:46:00   
+1    DI note for APP001   2025-09-09 11:20:00 2025-09-09 13:10:00   
+2    DI note for APP001   2025-09-09 14:06:00 2025-09-09 16:33:00   
+3    DI note for APP001   2025-09-09 16:58:00 2025-09-09 20:00:00   
+4    DI note for APP001   2025-09-09 20:32:00 2025-09-09 21:08:00   
+..                  ...                   ...                 ...   
+595  DI note for APP050   2025-09-10 21:43:00 2025-09-10 22:53:00   
+596  DI note for APP050   2025-09-10 23:42:00 2025-09-11 00:55:00   
+597  DI note for APP050   2025-09-11 01:07:00 2025-09-11 02:27:00   
+598  DI note for APP050   2025-09-11 02:36:00 2025-09-11 03:21:00   
+599  DI note for APP050   2025-09-11 03:59:00 2025-09-11 04:10:00   
+
+    Stage_Duration_Minutes Total_Processing_Days SLA_Met  Last_Modified_By  \
+0                      226                     6     Yes            System   
+1                      110                     7     Yes            Team A   
+2                      147                     2     Yes            Team A   
+3                      182                     9      No            System   
+4                       36                     1     Yes            Team B   
+..                     ...                   ...     ...               ...   
+595                     70                     9     Yes            System   
+596                     73                     3     Yes            Team A   
+597                     80                    10      No            Team B   
+598                     45                     8      No            System   
+599                     11                     8      No            Team B   
+
+    Last_Modified_Timestamp            Escalation_Notes QA_Check_Flag  
+0          2025-09-09 10:46  Escalation note for APP001           Yes  
+1          2025-09-09 13:10  Escalation note for APP001           Yes  
+2          2025-09-09 16:33  Escalation note for APP001           Yes  
+3          2025-09-09 20:00  Escalation note for APP001            No  
+4          2025-09-09 21:08  Escalation note for APP001           Yes  
+..                      ...                         ...           ...  
+595        2025-09-10 22:53  Escalation note for APP050            No  
+596        2025-09-11 00:55  Escalation note for APP050            No  
+597        2025-09-11 02:27  Escalation note for APP050           Yes  
+598        2025-09-11 03:21  Escalation note for APP050           Yes  
+599        2025-09-11 04:10  Escalation note for APP050           Yes  
+
+[600 rows x 43 columns]
+2025-10-03 15:35:05,910 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:35:05,974 | INFO | pipelines.master_workflow | [info] records=     Activity_ID Application_ID Product_Type    Channel         Stage  \
+0              1         APP001  Credit Card  TeleSales      Sourcing   
+1              2         APP001  Credit Card  TeleSales      Sourcing   
+2              3         APP001  Credit Card  TeleSales        Dedupe   
+3              4         APP001  Credit Card  TeleSales        Dedupe   
+4              5         APP001  Credit Card  TeleSales  Underwriting   
+..           ...            ...          ...        ...           ...   
+595          596         APP050         Loan  TeleSales          PDOC   
+596          597         APP050         Loan  TeleSales          PDOC   
+597          598         APP050         Loan  TeleSales            DI   
+598          599         APP050         Loan  TeleSales            DI   
+599          600         APP050         Loan  TeleSales            DI   
+
+           Activity_Type  Activity_Timestamp Performed_By  \
+0              Submitted 2025-09-09 10:46:00  Third Party   
+1               Reviewed 2025-09-09 13:10:00         Auto   
+2                Checked 2025-09-09 16:33:00       Team A   
+3                Flagged 2025-09-09 20:00:00         Auto   
+4     Verified Documents 2025-09-09 21:08:00       Team A   
+..                   ...                 ...          ...   
+595  Documents Collected 2025-09-10 22:53:00       Team A   
+596        PDOC Reviewed 2025-09-11 00:55:00         Auto   
+597            Disbursed 2025-09-11 02:27:00       Team A   
+598            Activated 2025-09-11 03:21:00  Third Party   
+599     Welcome Kit Sent 2025-09-11 04:10:00       System   
+
+    Status_After_Activity                            Activity_Notes  ...  \
+0                 On Hold               Submitted done for Sourcing  ...   
+1                 On Hold                Reviewed done for Sourcing  ...   
+2                 Pending                   Checked done for Dedupe  ...   
+3                 On Hold                   Flagged done for Dedupe  ...   
+4                 Pending  Verified Documents done for Underwriting  ...   
+..                    ...                                       ...  ...   
+595               On Hold         Documents Collected done for PDOC  ...   
+596             Escalated               PDOC Reviewed done for PDOC  ...   
+597              Approved                     Disbursed done for DI  ...   
+598               On Hold                     Activated done for DI  ...   
+599               On Hold              Welcome Kit Sent done for DI  ...   
+
+               DI_Notes Stage_Start_Timestamp Stage_End_Timestamp  \
+0    DI note for APP001   2025-09-09 07:00:00 2025-09-09 10:46:00   
+1    DI note for APP001   2025-09-09 11:20:00 2025-09-09 13:10:00   
+2    DI note for APP001   2025-09-09 14:06:00 2025-09-09 16:33:00   
+3    DI note for APP001   2025-09-09 16:58:00 2025-09-09 20:00:00   
+4    DI note for APP001   2025-09-09 20:32:00 2025-09-09 21:08:00   
+..                  ...                   ...                 ...   
+595  DI note for APP050   2025-09-10 21:43:00 2025-09-10 22:53:00   
+596  DI note for APP050   2025-09-10 23:42:00 2025-09-11 00:55:00   
+597  DI note for APP050   2025-09-11 01:07:00 2025-09-11 02:27:00   
+598  DI note for APP050   2025-09-11 02:36:00 2025-09-11 03:21:00   
+599  DI note for APP050   2025-09-11 03:59:00 2025-09-11 04:10:00   
+
+    Stage_Duration_Minutes Total_Processing_Days SLA_Met  Last_Modified_By  \
+0                      226                     6     Yes            System   
+1                      110                     7     Yes            Team A   
+2                      147                     2     Yes            Team A   
+3                      182                     9      No            System   
+4                       36                     1     Yes            Team B   
+..                     ...                   ...     ...               ...   
+595                     70                     9     Yes            System   
+596                     73                     3     Yes            Team A   
+597                     80                    10      No            Team B   
+598                     45                     8      No            System   
+599                     11                     8      No            Team B   
+
+    Last_Modified_Timestamp            Escalation_Notes QA_Check_Flag  
+0          2025-09-09 10:46  Escalation note for APP001           Yes  
+1          2025-09-09 13:10  Escalation note for APP001           Yes  
+2          2025-09-09 16:33  Escalation note for APP001           Yes  
+3          2025-09-09 20:00  Escalation note for APP001            No  
+4          2025-09-09 21:08  Escalation note for APP001           Yes  
+..                      ...                         ...           ...  
+595        2025-09-10 22:53  Escalation note for APP050            No  
+596        2025-09-11 00:55  Escalation note for APP050            No  
+597        2025-09-11 02:27  Escalation note for APP050           Yes  
+598        2025-09-11 03:21  Escalation note for APP050           Yes  
+599        2025-09-11 04:10  Escalation note for APP050           Yes  
+
+[600 rows x 43 columns]
+2025-10-03 15:36:22,263 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:36:22,323 | INFO | pipelines.master_workflow | [info] records=     Activity_ID Application_ID Product_Type    Channel         Stage  \
+0              1         APP001  Credit Card  TeleSales      Sourcing   
+1              2         APP001  Credit Card  TeleSales      Sourcing   
+2              3         APP001  Credit Card  TeleSales        Dedupe   
+3              4         APP001  Credit Card  TeleSales        Dedupe   
+4              5         APP001  Credit Card  TeleSales  Underwriting   
+..           ...            ...          ...        ...           ...   
+595          596         APP050         Loan  TeleSales          PDOC   
+596          597         APP050         Loan  TeleSales          PDOC   
+597          598         APP050         Loan  TeleSales            DI   
+598          599         APP050         Loan  TeleSales            DI   
+599          600         APP050         Loan  TeleSales            DI   
+
+           Activity_Type  Activity_Timestamp Performed_By  \
+0              Submitted 2025-09-09 10:46:00  Third Party   
+1               Reviewed 2025-09-09 13:10:00         Auto   
+2                Checked 2025-09-09 16:33:00       Team A   
+3                Flagged 2025-09-09 20:00:00         Auto   
+4     Verified Documents 2025-09-09 21:08:00       Team A   
+..                   ...                 ...          ...   
+595  Documents Collected 2025-09-10 22:53:00       Team A   
+596        PDOC Reviewed 2025-09-11 00:55:00         Auto   
+597            Disbursed 2025-09-11 02:27:00       Team A   
+598            Activated 2025-09-11 03:21:00  Third Party   
+599     Welcome Kit Sent 2025-09-11 04:10:00       System   
+
+    Status_After_Activity                            Activity_Notes  ...  \
+0                 On Hold               Submitted done for Sourcing  ...   
+1                 On Hold                Reviewed done for Sourcing  ...   
+2                 Pending                   Checked done for Dedupe  ...   
+3                 On Hold                   Flagged done for Dedupe  ...   
+4                 Pending  Verified Documents done for Underwriting  ...   
+..                    ...                                       ...  ...   
+595               On Hold         Documents Collected done for PDOC  ...   
+596             Escalated               PDOC Reviewed done for PDOC  ...   
+597              Approved                     Disbursed done for DI  ...   
+598               On Hold                     Activated done for DI  ...   
+599               On Hold              Welcome Kit Sent done for DI  ...   
+
+               DI_Notes Stage_Start_Timestamp Stage_End_Timestamp  \
+0    DI note for APP001   2025-09-09 07:00:00 2025-09-09 10:46:00   
+1    DI note for APP001   2025-09-09 11:20:00 2025-09-09 13:10:00   
+2    DI note for APP001   2025-09-09 14:06:00 2025-09-09 16:33:00   
+3    DI note for APP001   2025-09-09 16:58:00 2025-09-09 20:00:00   
+4    DI note for APP001   2025-09-09 20:32:00 2025-09-09 21:08:00   
+..                  ...                   ...                 ...   
+595  DI note for APP050   2025-09-10 21:43:00 2025-09-10 22:53:00   
+596  DI note for APP050   2025-09-10 23:42:00 2025-09-11 00:55:00   
+597  DI note for APP050   2025-09-11 01:07:00 2025-09-11 02:27:00   
+598  DI note for APP050   2025-09-11 02:36:00 2025-09-11 03:21:00   
+599  DI note for APP050   2025-09-11 03:59:00 2025-09-11 04:10:00   
+
+    Stage_Duration_Minutes Total_Processing_Days SLA_Met  Last_Modified_By  \
+0                      226                     6     Yes            System   
+1                      110                     7     Yes            Team A   
+2                      147                     2     Yes            Team A   
+3                      182                     9      No            System   
+4                       36                     1     Yes            Team B   
+..                     ...                   ...     ...               ...   
+595                     70                     9     Yes            System   
+596                     73                     3     Yes            Team A   
+597                     80                    10      No            Team B   
+598                     45                     8      No            System   
+599                     11                     8      No            Team B   
+
+    Last_Modified_Timestamp            Escalation_Notes QA_Check_Flag  
+0          2025-09-09 10:46  Escalation note for APP001           Yes  
+1          2025-09-09 13:10  Escalation note for APP001           Yes  
+2          2025-09-09 16:33  Escalation note for APP001           Yes  
+3          2025-09-09 20:00  Escalation note for APP001            No  
+4          2025-09-09 21:08  Escalation note for APP001           Yes  
+..                      ...                         ...           ...  
+595        2025-09-10 22:53  Escalation note for APP050            No  
+596        2025-09-11 00:55  Escalation note for APP050            No  
+597        2025-09-11 02:27  Escalation note for APP050           Yes  
+598        2025-09-11 03:21  Escalation note for APP050           Yes  
+599        2025-09-11 04:10  Escalation note for APP050           Yes  
+
+[600 rows x 43 columns]
+2025-10-03 15:37:46,061 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:37:46,110 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'Application_ID', 'Product_Type', 'Channel', 'Stage',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 15:42:42,398 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:42:42,455 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'Application_ID', 'Product_Type', 'Channel', 'Stage',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 15:43:30,987 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:43:31,100 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'Application_ID', 'Product_Type', 'Channel', 'Stage',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 15:45:18,324 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 15:45:18,381 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'journey_id', 'Product_Type', 'Channel', 'step',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 16:06:58,459 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:06:58,533 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'journey_id', 'Product_Type', 'Channel', 'step',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 16:08:42,733 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:09:03,368 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:09:03,427 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'journey_id', 'Product_Type', 'Channel', 'step',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 16:09:50,588 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:09:50,639 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'journey_id', 'Product_Type', 'Channel', 'step',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 16:15:46,492 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:15:46,596 | INFO | pipelines.master_workflow | [info] columns=Index(['Activity_ID', 'journey_id', 'Product_Type', 'Channel', 'step',
+       'Activity_Type', 'Activity_Timestamp', 'Performed_By',
+       'Status_After_Activity', 'Activity_Notes', 'Dedupe_Flag',
+       'Dedupe_Match_Type', 'Existing_Record_Flag', 'Risk_Grade', 'Fraud_Flag',
+       'Exception_Flag', 'Bureau_Score', 'Employment_Verified',
+       'Income_Verified', 'Address_Verified', 'KYC_Status', 'UW_Decision',
+       'Escalation_Required', 'Underwriting_Notes', 'Documents_Collected_Flag',
+       'Missing_Documents_Count', 'PDOC_Status', 'PDOC_Clearance_Date',
+       'PDOC_Notes', 'Final_Approved_Limit', 'Disbursement_Date',
+       'Activation_Status', 'Welcome_Kit_Sent', 'DI_Notes',
+       'Stage_Start_Timestamp', 'Stage_End_Timestamp',
+       'Stage_Duration_Minutes', 'Total_Processing_Days', 'SLA_Met',
+       'Last_Modified_By', 'Last_Modified_Timestamp', 'Escalation_Notes',
+       'QA_Check_Flag'],
+      dtype='object')
+2025-10-03 16:20:08,291 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:20:08,354 | INFO | pipelines.master_workflow | [info] columns=Index(['activity_id', 'application_id', 'product__type', 'channel', 'stage',
+       'activity__type', 'activity__timestamp', 'performed__by',
+       'status__after__activity', 'activity__notes', 'dedupe__flag',
+       'dedupe__match__type', 'existing__record__flag', 'risk__grade',
+       'fraud__flag', 'exception__flag', 'bureau__score',
+       'employment__verified', 'income__verified', 'address__verified',
+       'kyc__status', 'uw__decision', 'escalation__required',
+       'underwriting__notes', 'documents__collected__flag',
+       'missing__documents__count', 'pdoc__status', 'pdoc__clearance__date',
+       'pdoc__notes', 'final__approved__limit', 'disbursement__date',
+       'activation__status', 'welcome__kit__sent', 'di__notes',
+       'stage__start__timestamp', 'stage__end__timestamp',
+       'stage__duration__minutes', 'total__processing__days', 'sla__met',
+       'last__modified__by', 'last__modified__timestamp', 'escalation__notes',
+       'qa__check__flag'],
+      dtype='object')
+2025-10-03 16:29:24,658 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:29:24,722 | INFO | pipelines.master_workflow | [info] columns=Index(['activity_id', 'journey_id', 'product', 'channel', 'step',
+       'activity_type', 'activity_timestamp', 'performed_by',
+       'status_after_activity', 'activity_notes', 'dedupe_flag',
+       'dedupe_match_type', 'existing_record_flag', 'risk_grade', 'fraud_flag',
+       'exception_flag', 'bureau_score', 'employment_verified',
+       'income_verified', 'address_verified', 'kyc_status', 'uw_decision',
+       'escalation_required', 'underwriting_notes', 'documents_collected_flag',
+       'missing_documents_count', 'pdoc_status', 'pdoc_clearance_date',
+       'pdoc_notes', 'final_approved_limit', 'disbursement_date',
+       'activation_status', 'welcome_kit_sent', 'di_notes',
+       'stage_start_timestamp', 'stage_end_timestamp',
+       'stage_duration_minutes', 'total_processing_days', 'sla_met',
+       'last_modified_by', 'last_modified_timestamp', 'escalation_notes',
+       'qa_check_flag'],
+      dtype='object')
+2025-10-03 16:29:45,126 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:29:45,181 | INFO | pipelines.master_workflow | [info] columns=Index(['activity_id', 'journey_id', 'product', 'channel', 'step',
+       'activity_type', 'activity_timestamp', 'performed_by',
+       'status_after_activity', 'activity_notes', 'dedupe_flag',
+       'dedupe_match_type', 'existing_record_flag', 'risk_grade', 'fraud_flag',
+       'exception_flag', 'bureau_score', 'employment_verified',
+       'income_verified', 'address_verified', 'kyc_status', 'uw_decision',
+       'escalation_required', 'underwriting_notes', 'documents_collected_flag',
+       'missing_documents_count', 'pdoc_status', 'pdoc_clearance_date',
+       'pdoc_notes', 'final_approved_limit', 'disbursement_date',
+       'activation_status', 'welcome_kit_sent', 'di_notes',
+       'stage_start_timestamp', 'stage_end_timestamp',
+       'stage_duration_minutes', 'total_processing_days', 'sla_met',
+       'last_modified_by', 'last_modified_timestamp', 'escalation_notes',
+       'qa_check_flag'],
+      dtype='object')
+2025-10-03 16:30:25,550 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:30:25,611 | INFO | pipelines.master_workflow | [info] columns=Index(['activity_id', 'journey_id1', 'product', 'channel', 'step',
+       'activity_type', 'activity_timestamp', 'performed_by',
+       'status_after_activity', 'activity_notes', 'dedupe_flag',
+       'dedupe_match_type', 'existing_record_flag', 'risk_grade', 'fraud_flag',
+       'exception_flag', 'bureau_score', 'employment_verified',
+       'income_verified', 'address_verified', 'kyc_status', 'uw_decision',
+       'escalation_required', 'underwriting_notes', 'documents_collected_flag',
+       'missing_documents_count', 'pdoc_status', 'pdoc_clearance_date',
+       'pdoc_notes', 'final_approved_limit', 'disbursement_date',
+       'activation_status', 'welcome_kit_sent', 'di_notes',
+       'stage_start_timestamp', 'stage_end_timestamp',
+       'stage_duration_minutes', 'total_processing_days', 'sla_met',
+       'last_modified_by', 'last_modified_timestamp', 'escalation_notes',
+       'qa_check_flag'],
+      dtype='object')
+2025-10-03 16:36:29,844 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:36:54,822 | INFO | core.io.loaders | [INGEST] Loaded data/raw/credit_card_process_activities.csv rows=600 cols=43
+2025-10-03 16:36:54,878 | INFO | pipelines.master_workflow | [info] columns=Index(['activity_id', 'journey_id', 'product', 'channel', 'step',
+       'activity_type', 'activity_timestamp', 'performed_by',
+       'status_after_activity', 'activity_notes', 'dedupe_flag',
+       'dedupe_match_type', 'existing_record_flag', 'risk_grade', 'fraud_flag',
+       'exception_flag', 'bureau_score', 'employment_verified',
+       'income_verified', 'address_verified', 'kyc_status', 'uw_decision',
+       'escalation_required', 'underwriting_notes', 'documents_collected_flag',
+       'missing_documents_count', 'pdoc_status', 'pdoc_clearance_date',
+       'pdoc_notes', 'final_approved_limit', 'disbursement_date',
+       'activation_status', 'welcome_kit_sent', 'di_notes',
+       'stage_start_timestamp', 'stage_end_timestamp',
+       'stage_duration_minutes', 'total_processing_days', 'sla_met',
+       'last_modified_by', 'last_modified_timestamp', 'escalation_notes',
+       'qa_check_flag'],
+      dtype='object')

@@ -1,6 +1,7 @@
 import pandas as pd
 from ..logger import get_logger
 logger = get_logger(__name__)
+
 def run_data_quality_checks(df):
     issues = {}
     nulls = df.isnull().sum()
