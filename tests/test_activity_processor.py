@@ -1,7 +1,7 @@
 import pandas as pd
-from core.data.database_init import init_db, get_session
+from core.io.database_init import init_db, get_session
 from core.classes.activity_processor import ActivityProcessor
-from core.data.models import Journey, Step, EventFact
+from core.io.database_models import Journey, Step, EventFact
 def test_activity_processor_runs(tmp_path):
     init_db(f"sqlite:///{tmp_path}/test.db")
     df = pd.DataFrame([{

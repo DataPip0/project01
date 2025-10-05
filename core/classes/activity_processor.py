@@ -7,8 +7,8 @@ from datetime import datetime
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 from ..logger import get_logger
-from ..data.database_init import get_session
-from ..data.models import Journey, Step, SubProcess, EventFact
+from ..io.database_init import get_session
+from ..io.database_models import Journey, Step, SubProcess, EventFact
 
 logger = get_logger(__name__)
 

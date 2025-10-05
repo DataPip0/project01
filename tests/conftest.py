@@ -1,7 +1,7 @@
 import os
 import pytest
 import pandas as pd
-from core import config
+from config import config
 from core.transforms.ingest import ingest_from_csv
 from core.transforms.process_master import ProcessMasterBuilder
 @pytest.fixture(scope="session")

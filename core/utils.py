@@ -5,6 +5,9 @@ import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Tuple
+import yaml
+import os
+from typing import Any, Dict
 
 from flask import jsonify, current_app
 from werkzeug.utils import secure_filename
@@ -56,3 +59,32 @@ def _save_file(file_storage) -> Path:
     out_path = upload_dir / f"{ts}__{clean}"
     file_storage.save(out_path)
     return out_path
+
+
+def load_yaml_settings(env: str | None = None, path: str =  "config/app.yaml") -> Dict[str, Any]:
+    base = Path(path)
+    if not base.exists():
+        raise FileNotFoundError(f"Missing {path}")
+    with base.open("r") as f:
+        data = yaml.safe_load(f) or {}
+
+    if env:
+        overlay = Path(f"config/{env}.yaml")
+        if overlay.exists():
+            with overlay.open("r") as f:
+                extra = yaml.safe_load(f) or {}
+            for k, v in extra.items():
+                if isinstance(v, dict) and isinstance(data.get(k), dict):
+                    data[k].update(v)
+                else:
+                    data[k] = v
+
+    token = os.getenv("CSV_API_TOKEN")
+    if token:
+        data.setdefault("security", {})["csv_api_token"] = token
+
+    db_url_env = os.getenv("DATABASE_URL")
+    if db_url_env:
+        data.setdefault("database", {})["url"] = db_url_env
+
+    return data
