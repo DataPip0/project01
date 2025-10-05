@@ -1,0 +1,29 @@
+REST
+{
+  "envelope": {
+    "event_id": "evt-001",
+    "source": "rest.client",
+    "dedupe_key": "app-123|2025-10-04T06:30:00Z",
+    "attributes": { "tenant": "ops", "schema_version": "v1" }
+  },
+  "payload": {
+    "application_id": "app-123",
+    "status": "OPEN",
+    "started_at": "2025-10-04T06:30:00Z",
+    "unexpected_field": "kept-but-ignored"
+  }
+}
+
+KAFKA
+{
+  "envelope": {
+    "source": "kafka.bridge",
+    "attributes": { "schema_version": "v1" }
+  },
+  "payload": {
+    "app_id": "app-999",
+    "status": "CLOSED",
+    "started_at": "2025-10-02T08:15:00Z",
+    "ended_at": "2025-10-02T10:20:00Z"
+  }
+}
